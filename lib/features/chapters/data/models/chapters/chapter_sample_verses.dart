@@ -1,0 +1,39 @@
+import 'chapter_01_verses.dart';
+import 'chapter_02_verses.dart';
+import 'chapter_03_verses.dart';
+import 'chapter_04_verses.dart';
+import 'chapter_05_verses.dart';
+import 'chapter_06_verses.dart';
+import 'chapter_07_verses.dart';
+import 'chapter_08_verses.dart';
+import 'chapter_09_verses.dart';
+import 'chapter_10_verses.dart';
+import 'chapter_11_verses.dart';
+import 'chapter_12_verses.dart';
+import 'chapter_13_verses.dart';
+import 'chapter_14_verses.dart';
+import 'chapter_15_verses.dart';
+import 'chapter_16_verses.dart';
+import 'chapter_17_verses.dart';
+import 'chapter_18_verses.dart';
+
+const Map<int, List<Map<String, String>>> chapterSampleVersesData = {
+  1: chapter01Verses,
+  2: chapter02Verses,
+  3: chapter03Verses,
+  4: chapter04Verses,
+  5: chapter05Verses,
+  6: chapter06Verses,
+  7: chapter07Verses,
+  8: chapter08Verses,
+  9: chapter09Verses,
+  10: chapter10Verses,
+  11: chapter11Verses,
+  12: chapter12Verses,
+  13: chapter13Verses,
+  14: chapter14Verses,
+  15: chapter15Verses,
+  16: chapter16Verses,
+  17: chapter17Verses,
+  18: chapter18Verses,
+};
