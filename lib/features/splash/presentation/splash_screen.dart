@@ -23,9 +23,10 @@ class _SplashScreenState extends State<SplashScreen>
       duration: const Duration(milliseconds: 1800),
     );
     _fadeAnim = CurvedAnimation(parent: _controller, curve: Curves.easeIn);
-    _scaleAnim = Tween<double>(begin: 0.7, end: 1.0).animate(
-      CurvedAnimation(parent: _controller, curve: Curves.easeOutBack),
-    );
+    _scaleAnim = Tween<double>(
+      begin: 0.7,
+      end: 1.0,
+    ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeOutBack));
     _controller.forward();
 
     Future.delayed(const Duration(seconds: 3), () {
@@ -69,6 +70,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
+                  /// OM SYMBOL (UNCHANGED)
                   Container(
                     width: 120,
                     height: 120,
@@ -86,14 +88,45 @@ class _SplashScreenState extends State<SplashScreen>
                       ],
                     ),
                     child: const Center(
-                      child: Text('ॐ', style: TextStyle(fontSize: 64, color: Color(0xFF1A0A00), fontWeight: FontWeight.bold)),
+                      child: Text(
+                        'ॐ',
+                        style: TextStyle(
+                          fontSize: 64,
+                          color: Color(0xFF1A0A00),
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
                   ),
+
                   const SizedBox(height: 32),
-                  const Text('भगवद्गीता', style: TextStyle(fontSize: 36, color: Color(0xFFFFD700), fontWeight: FontWeight.bold, letterSpacing: 3)),
+
+                  /// TITLE (Marathi → English)
+                  const Text(
+                    'Bhagavad Gita',
+                    style: TextStyle(
+                      fontSize: 36,
+                      color: Color(0xFFFFD700),
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 3,
+                    ),
+                  ),
+
                   const SizedBox(height: 8),
-                  const Text('अहिराणी भाषेत', style: TextStyle(fontSize: 18, color: Color(0xFFFFAA55), letterSpacing: 2)),
+
+                  /// SUBTITLE FIXED
+                  const Text(
+                    'In French Language',
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Color(0xFFFFAA55),
+                      letterSpacing: 2,
+                    ),
+                  ),
+
                   const SizedBox(height: 48),
+
+                  /// LOADING BAR
                   SizedBox(
                     width: 160,
                     child: LinearProgressIndicator(

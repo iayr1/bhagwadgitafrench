@@ -17,7 +17,13 @@ class FavoritesPage extends StatelessWidget {
       backgroundColor: const Color(0xFF1A0A00),
       appBar: AppBar(
         backgroundColor: const Color(0xFF2D1200),
-        title: const Text('आवडते श्लोक', style: TextStyle(color: Color(0xFFFFD700), fontWeight: FontWeight.bold)),
+        title: const Text(
+          'Favorite Verses',
+          style: TextStyle(
+            color: Color(0xFFFFD700),
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
       body: AnimatedBuilder(
         animation: favoritesService,
@@ -27,8 +33,11 @@ class FavoritesPage extends StatelessWidget {
           if (favorites.isEmpty) {
             return const Center(
               child: Text(
-                'अजून कुठलाही श्लोक आवडता केलेला नाही.',
-                style: TextStyle(color: Color(0xFFAA8855), fontSize: 14),
+                'No favorite verses yet.',
+                style: TextStyle(
+                  color: Color(0xFFAA8855),
+                  fontSize: 14,
+                ),
               ),
             );
           }
@@ -38,12 +47,16 @@ class FavoritesPage extends StatelessWidget {
             itemCount: favorites.length,
             itemBuilder: (context, index) {
               final item = favorites[index];
+
               return Card(
                 color: const Color(0xFF2D1200),
                 margin: const EdgeInsets.only(bottom: 10),
                 child: ListTile(
                   onTap: () {
-                    final color = ChapterModel.chapterColors[(item.chapterNum - 1) % ChapterModel.chapterColors.length];
+                    final color = ChapterModel.chapterColors[
+                        (item.chapterNum - 1) %
+                            ChapterModel.chapterColors.length];
+
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -57,25 +70,39 @@ class FavoritesPage extends StatelessWidget {
                     );
                   },
                   title: Text(
-                    'अध्याय ${item.chapterNum} • श्लोक ${item.verseNum}',
-                    style: const TextStyle(color: Color(0xFFFFD700), fontWeight: FontWeight.bold),
+                    'Chapter ${item.chapterNum} • Verse ${item.verseNum}',
+                    style: const TextStyle(
+                      color: Color(0xFFFFD700),
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   subtitle: Padding(
                     padding: const EdgeInsets.only(top: 8),
                     child: Text(
                       item.verse['sanskrit'] ?? '',
-                      style: const TextStyle(color: Color(0xFFDDC08A), height: 1.4),
+                      style: const TextStyle(
+                        color: Color(0xFFDDC08A),
+                        height: 1.4,
+                      ),
                     ),
                   ),
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       IconButton(
-                        icon: const Icon(Icons.play_circle_outline, color: Color(0xFFFFD700)),
-                        onPressed: () => audioService.speakSanskritVerse(item.verse['sanskrit'] ?? ''),
+                        icon: const Icon(
+                          Icons.play_circle_outline,
+                          color: Color(0xFFFFD700),
+                        ),
+                        onPressed: () => audioService.speakSanskritVerse(
+                          item.verse['sanskrit'] ?? '',
+                        ),
                       ),
                       IconButton(
-                        icon: const Icon(Icons.favorite, color: Colors.redAccent),
+                        icon: const Icon(
+                          Icons.favorite,
+                          color: Colors.redAccent,
+                        ),
                         onPressed: () {
                           favoritesService.toggleFavorite(
                             chapterNum: item.chapterNum,

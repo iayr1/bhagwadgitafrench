@@ -30,7 +30,7 @@ class BhagwadGitaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'भगवद्गीता - अहिराणी',
+      title: 'भगवद्गीता - French',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       routes: AppRoutes.routes,

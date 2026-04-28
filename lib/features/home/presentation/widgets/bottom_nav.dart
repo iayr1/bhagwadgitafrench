@@ -37,19 +37,19 @@ class HomeBottomNav extends StatelessWidget {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.menu_book_rounded),
-            label: 'अध्याय',
+            label: 'Chapters',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.wb_sunny_rounded),
-            label: 'आजचा श्लोक',
+            label: 'Daily Verse',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite_rounded),
-            label: 'आवडते',
+            label: 'Favorites',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.bookmark_rounded),
-            label: 'बुकमार्क',
+            label: 'Bookmarks',
           ),
         ],
       ),

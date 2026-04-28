@@ -47,7 +47,7 @@ class VerseCard extends StatelessWidget {
                       border: Border.all(color: color.withOpacity(0.5)),
                     ),
                     child: Text(
-                      'श्लोक ${verse['num']}',
+                      'Verse ${verse['num']}',
                       style: TextStyle(
                         color: color,
                         fontSize: 12,
@@ -79,6 +79,8 @@ class VerseCard extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 12),
+
+              /// Sanskrit Verse (unchanged)
               Text(
                 verse['sanskrit']!,
                 style: const TextStyle(
@@ -88,9 +90,12 @@ class VerseCard extends StatelessWidget {
                   fontStyle: FontStyle.italic,
                 ),
               ),
+
               const SizedBox(height: 10),
               const Divider(color: Color(0xFF3D1500)),
               const SizedBox(height: 8),
+
+              /// French Translation
               Row(
                 children: [
                   Container(
@@ -103,8 +108,11 @@ class VerseCard extends StatelessWidget {
                       borderRadius: BorderRadius.circular(4),
                     ),
                     child: const Text(
-                      'अहिराणी',
-                      style: TextStyle(color: Color(0xFFFF9966), fontSize: 10),
+                      'French',
+                      style: TextStyle(
+                        color: Color(0xFFFF9966),
+                        fontSize: 10,
+                      ),
                     ),
                   ),
                   const SizedBox(width: 8),

@@ -31,7 +31,9 @@ class _ChapterDetailPageState extends State<ChapterDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    final verses = ChapterModel.sampleVersesForChapter(widget.chapterNum);
+    final verses =
+        ChapterModel.sampleVersesForChapter(widget.chapterNum);
+
     final chapterInfo = <String, String>{
       'num': widget.chapter['num'] ?? widget.chapterNum.toString(),
       'title': widget.chapter['title'] ?? '',
@@ -40,6 +42,7 @@ class _ChapterDetailPageState extends State<ChapterDetailPage> {
       'sanskrit': widget.chapter['title'] ?? '',
       'meaning': widget.chapter['summary'] ?? '',
     };
+
     final isBookmarked = _bookmarksService.isBookmarked(
       chapterNum: widget.chapterNum,
       verseNum: 0,
@@ -54,17 +57,23 @@ class _ChapterDetailPageState extends State<ChapterDetailPage> {
             pinned: true,
             backgroundColor: const Color(0xFF2D1200),
             leading: IconButton(
-              icon: const Icon(Icons.arrow_back_ios, color: Color(0xFFFFD700)),
+              icon: const Icon(
+                Icons.arrow_back_ios,
+                color: Color(0xFFFFD700),
+              ),
               onPressed: () => Navigator.pop(context),
             ),
             actions: [
               IconButton(
                 icon: Icon(
-                  isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                  isBookmarked
+                      ? Icons.bookmark
+                      : Icons.bookmark_border,
                   color: const Color(0xFFFFD700),
                 ),
                 onPressed: () {
-                  final isNowBookmarked = _bookmarksService.toggleBookmark(
+                  final isNowBookmarked =
+                      _bookmarksService.toggleBookmark(
                     chapterNum: widget.chapterNum,
                     verseNum: 0,
                     verse: chapterInfo,
@@ -89,15 +98,17 @@ class _ChapterDetailPageState extends State<ChapterDetailPage> {
                 onPressed: () {
                   final text =
                       '''
-भगवद्गीता - अध्याय ${widget.chapterNum}
+Bhagavad Gita - Chapter ${widget.chapterNum}
 
 ${widget.chapter['title'] ?? ''}
 ${widget.chapter['French'] ?? ''}
 
-सारांश:
+Summary:
 ${widget.chapter['summary'] ?? ''}
 ''';
-                  SharePlus.instance.share(ShareParams(text: text.trim()));
+                  SharePlus.instance.share(
+                    ShareParams(text: text.trim()),
+                  );
                 },
               ),
             ],
@@ -120,7 +131,7 @@ ${widget.chapter['summary'] ?? ''}
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
-                          'अध्याय ${widget.chapter['num']}',
+                          'Chapter ${widget.chapter['num']}',
                           style: TextStyle(
                             color: widget.color,
                             fontSize: 16,
@@ -153,6 +164,8 @@ ${widget.chapter['summary'] ?? ''}
               ),
             ),
           ),
+
+          /// Summary
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.all(16),
@@ -161,7 +174,9 @@ ${widget.chapter['summary'] ?? ''}
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
                   color: widget.color.withOpacity(0.1),
-                  border: Border.all(color: widget.color.withOpacity(0.3)),
+                  border: Border.all(
+                    color: widget.color.withOpacity(0.3),
+                  ),
                 ),
                 child: Text(
                   widget.chapter['summary']!,
@@ -175,49 +190,57 @@ ${widget.chapter['summary'] ?? ''}
               ),
             ),
           ),
+
+          /// Verses List
           SliverPadding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             sliver: SliverList(
-              delegate: SliverChildBuilderDelegate((context, index) {
-                final verseNum = index + 1;
-                final verse = verses[index];
-                return AnimatedBuilder(
-                  animation: _favoritesService,
-                  builder: (_, __) => VerseCard(
-                    verse: verse,
-                    color: widget.color,
-                    isFavorite: _favoritesService.isFavorite(
-                      chapterNum: widget.chapterNum,
-                      verseNum: verseNum,
-                    ),
-                    onPlay: () => _audioService.speakSanskritVerse(
-                      verse['sanskrit'] ?? '',
-                    ),
-                    onLike: () {
-                      _favoritesService.toggleFavorite(
+              delegate: SliverChildBuilderDelegate(
+                (context, index) {
+                  final verseNum = index + 1;
+                  final verse = verses[index];
+
+                  return AnimatedBuilder(
+                    animation: _favoritesService,
+                    builder: (_, __) => VerseCard(
+                      verse: verse,
+                      color: widget.color,
+                      isFavorite: _favoritesService.isFavorite(
                         chapterNum: widget.chapterNum,
                         verseNum: verseNum,
-                        verse: verse,
-                      );
-                    },
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => VerseDetailPage(
-                            verse: verse,
-                            chapterNum: widget.chapterNum,
-                            verseNum: verseNum,
-                            color: widget.color,
+                      ),
+                      onPlay: () =>
+                          _audioService.speakSanskritVerse(
+                        verse['sanskrit'] ?? '',
+                      ),
+                      onLike: () {
+                        _favoritesService.toggleFavorite(
+                          chapterNum: widget.chapterNum,
+                          verseNum: verseNum,
+                          verse: verse,
+                        );
+                      },
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => VerseDetailPage(
+                              verse: verse,
+                              chapterNum: widget.chapterNum,
+                              verseNum: verseNum,
+                              color: widget.color,
+                            ),
                           ),
-                        ),
-                      );
-                    },
-                  ),
-                );
-              }, childCount: verses.length),
+                        );
+                      },
+                    ),
+                  );
+                },
+                childCount: verses.length,
+              ),
             ),
           ),
+
           const SliverToBoxAdapter(child: SizedBox(height: 20)),
         ],
       ),

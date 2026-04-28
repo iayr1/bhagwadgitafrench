@@ -19,7 +19,7 @@ class BookmarksPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color(0xFF2D1200),
         title: const Text(
-          'बुकमार्क',
+          'Bookmarks',
           style: TextStyle(
             color: Color(0xFFFFD700),
             fontWeight: FontWeight.bold,
@@ -34,8 +34,11 @@ class BookmarksPage extends StatelessWidget {
           if (bookmarks.isEmpty) {
             return const Center(
               child: Text(
-                'अजून कुठलाही बुकमार्क केलेला नाही.',
-                style: TextStyle(color: Color(0xFFAA8855), fontSize: 14),
+                'No bookmarks yet.',
+                style: TextStyle(
+                  color: Color(0xFFAA8855),
+                  fontSize: 14,
+                ),
               ),
             );
           }
@@ -46,7 +49,9 @@ class BookmarksPage extends StatelessWidget {
             itemBuilder: (context, index) {
               final item = bookmarks[index];
               final color = ChapterModel.chapterColors[
-                  (item.chapterNum - 1) % ChapterModel.chapterColors.length];
+                  (item.chapterNum - 1) %
+                      ChapterModel.chapterColors.length];
+
               final isChapterBookmark = item.verseNum == 0;
 
               return Card(
@@ -82,8 +87,8 @@ class BookmarksPage extends StatelessWidget {
                   },
                   title: Text(
                     isChapterBookmark
-                        ? 'अध्याय ${item.chapterNum} • पूर्ण अध्याय'
-                        : 'अध्याय ${item.chapterNum} • श्लोक ${item.verseNum}',
+                        ? 'Chapter ${item.chapterNum} • Full Chapter'
+                        : 'Chapter ${item.chapterNum} • Verse ${item.verseNum}',
                     style: const TextStyle(
                       color: Color(0xFFFFD700),
                       fontWeight: FontWeight.bold,
@@ -113,7 +118,8 @@ class BookmarksPage extends StatelessWidget {
                             color: Color(0xFFFFD700),
                           ),
                           onPressed: () => audioService
-                              .speakSanskritVerse(item.verse['sanskrit'] ?? ''),
+                              .speakSanskritVerse(
+                                  item.verse['sanskrit'] ?? ''),
                         ),
                       IconButton(
                         icon: const Icon(

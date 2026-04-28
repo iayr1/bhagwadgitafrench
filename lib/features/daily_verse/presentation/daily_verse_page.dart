@@ -21,15 +21,16 @@ class _DailyVersePageState extends State<DailyVersePage> {
     final chapterNum = dailyVerseData['chapterNum'] as int;
     final verseNum = dailyVerseData['verseNum'] as int;
     final verse = dailyVerseData['verse'] as Map<String, String>;
-    final color = ChapterModel
-        .chapterColors[(chapterNum - 1) % ChapterModel.chapterColors.length];
+
+    final color = ChapterModel.chapterColors[
+        (chapterNum - 1) % ChapterModel.chapterColors.length];
 
     return Scaffold(
       backgroundColor: const Color(0xFF1A0A00),
       appBar: AppBar(
         backgroundColor: const Color(0xFF2D1200),
         title: const Text(
-          'आजचो श्लोक',
+          'Daily Verse',
           style: TextStyle(
             color: Color(0xFFFFD700),
             fontWeight: FontWeight.bold,
@@ -57,7 +58,7 @@ class _DailyVersePageState extends State<DailyVersePage> {
                 child: Column(
                   children: [
                     Text(
-                      'अध्याय $chapterNum • श्लोक $verseNum',
+                      'Chapter $chapterNum • Verse $verseNum',
                       style: TextStyle(
                         color: color,
                         fontWeight: FontWeight.bold,
@@ -76,17 +77,31 @@ class _DailyVersePageState extends State<DailyVersePage> {
                   ],
                 ),
               ),
+
               const SizedBox(height: 16),
+
+              /// French Translation
               Text(
                 verse['French'] ?? '',
-                style: const TextStyle(color: Color(0xFFDDC08A), height: 1.6),
+                style: const TextStyle(
+                  color: Color(0xFFDDC08A),
+                  height: 1.6,
+                ),
               ),
+
               const SizedBox(height: 12),
+
+              /// English Meaning
               Text(
                 verse['meaning'] ?? '',
-                style: const TextStyle(color: Color(0xFFBFA06A), height: 1.6),
+                style: const TextStyle(
+                  color: Color(0xFFBFA06A),
+                  height: 1.6,
+                ),
               ),
+
               const SizedBox(height: 18),
+
               Row(
                 children: [
                   Expanded(
@@ -95,7 +110,7 @@ class _DailyVersePageState extends State<DailyVersePage> {
                         verse['sanskrit'] ?? '',
                       ),
                       icon: const Icon(Icons.play_circle_outline),
-                      label: const Text('ऐका'),
+                      label: const Text('Listen'),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -109,14 +124,22 @@ class _DailyVersePageState extends State<DailyVersePage> {
                         );
                       },
                       icon: Icon(
-                        isFavorite ? Icons.favorite : Icons.favorite_border,
+                        isFavorite
+                            ? Icons.favorite
+                            : Icons.favorite_border,
                       ),
-                      label: Text(isFavorite ? 'आवडतेमध्ये आहे' : 'आवडते करा'),
+                      label: Text(
+                        isFavorite
+                            ? 'Already in Favorites'
+                            : 'Add to Favorites',
+                      ),
                     ),
                   ),
                 ],
               ),
+
               const SizedBox(height: 10),
+
               TextButton(
                 onPressed: () {
                   Navigator.push(
@@ -131,7 +154,7 @@ class _DailyVersePageState extends State<DailyVersePage> {
                     ),
                   );
                 },
-                child: const Text('सविस्तर वाचा'),
+                child: const Text('Read Details'),
               ),
             ],
           );

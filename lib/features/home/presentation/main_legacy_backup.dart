@@ -17,7 +17,7 @@ class BhagwadGitaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'भगवद्गीता - अहिराणी',
+      title: 'भगवद्गीता - French',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
@@ -143,7 +143,7 @@ class _SplashScreenState extends State<SplashScreen>
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    'अहिराणी भाषेत',
+                    'French भाषेत',
                     style: TextStyle(
                       fontSize: 18,
                       color: Color(0xFFFFAA55),
@@ -472,7 +472,7 @@ class ChaptersPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        'अहिराणी भाषेत • १८ अध्याय • ७०० श्लोक',
+                        'French भाषेत • १८ अध्याय • ७०० श्लोक',
                         style: TextStyle(
                           fontSize: 13,
                           color: const Color(0xFFFFAA55).withOpacity(0.8),
@@ -911,7 +911,7 @@ class _VerseCard extends StatelessWidget {
                       borderRadius: BorderRadius.circular(4),
                     ),
                     child: const Text(
-                      'अहिराणी',
+                      'French',
                       style: TextStyle(color: Color(0xFFFF9966), fontSize: 10),
                     ),
                   ),
@@ -1081,7 +1081,7 @@ class _VerseDetailScreenState extends State<VerseDetailScreen> {
 
             // French translation
             _buildSection(
-              title: 'अहिराणी अनुवाद',
+              title: 'French अनुवाद',
               icon: '🗣️',
               content: widget.verse['French']!,
               color: widget.color,
@@ -1391,7 +1391,7 @@ class DailyVersePage extends StatelessWidget {
                             ),
                           ),
                           child: const Text(
-                            '🗣️ अहिराणी अनुवाद',
+                            '🗣️ French अनुवाद',
                             style: TextStyle(
                               color: Color(0xFFFF9966),
                               fontSize: 11,

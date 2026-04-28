@@ -50,7 +50,7 @@ class _SearchPageState extends State<SearchPage> {
       appBar: AppBar(
         backgroundColor: const Color(0xFF2D1200),
         title: const Text(
-          'शोधा',
+          'Search',
           style: TextStyle(
             color: Color(0xFFFFD700),
             fontWeight: FontWeight.bold,
@@ -66,27 +66,31 @@ class _SearchPageState extends State<SearchPage> {
               onChanged: (v) => setState(() => _query = v),
               style: const TextStyle(color: Color(0xFFDDC08A)),
               decoration: const InputDecoration(
-                hintText: 'श्लोक, अध्याय, शब्द शोधा...',
+                hintText: 'Search verse, chapter, keyword...',
               ),
             ),
             const SizedBox(height: 16),
+
             if (_query.trim().isNotEmpty)
               Expanded(
                 child: results.isEmpty
                     ? const Center(
                         child: Text(
-                          'काहीही निकाल सापडले नाहीत.',
+                          'No results found.',
                           style: TextStyle(color: Color(0xFFFFAA55)),
                         ),
                       )
                     : ListView.separated(
                         itemCount: results.length,
-                        separatorBuilder: (_, __) => const SizedBox(height: 8),
+                        separatorBuilder: (_, __) =>
+                            const SizedBox(height: 8),
                         itemBuilder: (context, index) {
                           final item = results[index];
                           final chapterNum = item['chapterNum'] as int;
                           final verseNum = item['verseNum'] as int;
-                          final verse = item['verse'] as Map<String, String>;
+                          final verse =
+                              item['verse'] as Map<String, String>;
+
                           final color =
                               ChapterModel.chapterColors[(chapterNum - 1) %
                                   ChapterModel.chapterColors.length];
@@ -108,7 +112,7 @@ class _SearchPageState extends State<SearchPage> {
                                 );
                               },
                               title: Text(
-                                'अध्याय $chapterNum • श्लोक $verseNum',
+                                'Chapter $chapterNum • Verse $verseNum',
                                 style: const TextStyle(
                                   color: Color(0xFFFFD700),
                                   fontWeight: FontWeight.bold,
@@ -132,7 +136,7 @@ class _SearchPageState extends State<SearchPage> {
               )
             else
               const Text(
-                'लोकप्रिय श्लोक: कर्मयोग, भक्ती, ज्ञान',
+                'Popular verses: Karma Yoga, Bhakti, Knowledge',
                 style: TextStyle(color: Color(0xFFFFAA55)),
               ),
           ],

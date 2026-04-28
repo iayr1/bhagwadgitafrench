@@ -24,7 +24,7 @@ class VerseDetailPage extends StatefulWidget {
 }
 
 class _VerseDetailPageState extends State<VerseDetailPage> {
-  bool _showTransliteration = true;
+  bool _showFrench = true;
   bool _showMeaning = true;
 
   final FavoritesService _favoritesService = FavoritesService.instance;
@@ -37,6 +37,7 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
       chapterNum: widget.chapterNum,
       verseNum: widget.verseNum,
     );
+
     final isBookmarked = _bookmarksService.isBookmarked(
       chapterNum: widget.chapterNum,
       verseNum: widget.verseNum,
@@ -51,7 +52,7 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
           onPressed: () => Navigator.pop(context),
         ),
         title: Text(
-          'अध्याय ${widget.chapterNum} • श्लोक ${widget.verseNum}',
+          'Chapter ${widget.chapterNum} • Verse ${widget.verseNum}',
           style: const TextStyle(color: Color(0xFFFFD700), fontSize: 16),
         ),
         actions: [
@@ -116,10 +117,12 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
           ),
         ],
       ),
+
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
+            /// Sanskrit Card
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(24),
@@ -158,19 +161,24 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
                 ],
               ),
             ),
+
             const SizedBox(height: 20),
+
+            /// French Translation
             _buildSection(
-              title: 'अहिराणी अनुवाद',
+              title: 'French Translation',
               icon: '🗣️',
               content: widget.verse['French']!,
               color: widget.color,
-              isActive: _showTransliteration,
-              onToggle: () =>
-                  setState(() => _showTransliteration = !_showTransliteration),
+              isActive: _showFrench,
+              onToggle: () => setState(() => _showFrench = !_showFrench),
             ),
+
             const SizedBox(height: 16),
+
+            /// English Meaning
             _buildSection(
-              title: 'अर्थ (मराठी)',
+              title: 'Meaning (English)',
               icon: '📖',
               content: widget.verse['meaning']!,
               color: const Color(0xFF00C9A7),
@@ -183,21 +191,23 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
     );
   }
 
+  /// Share Function
   void _shareVerse() {
     final text =
-        '''
-भगवद्गीता - अध्याय ${widget.chapterNum}, श्लोक ${widget.verseNum}
+'''
+Bhagavad Gita - Chapter ${widget.chapterNum}, Verse ${widget.verseNum}
 
 ${widget.verse['sanskrit'] ?? ''}
 
-अहिराणी: ${widget.verse['French'] ?? ''}
+French: ${widget.verse['French'] ?? ''}
 
-अर्थ: ${widget.verse['meaning'] ?? ''}
+Meaning: ${widget.verse['meaning'] ?? ''}
 ''';
 
     SharePlus.instance.share(ShareParams(text: text.trim()));
   }
 
+  /// Reusable Section Widget
   Widget _buildSection({
     required String title,
     required String icon,
