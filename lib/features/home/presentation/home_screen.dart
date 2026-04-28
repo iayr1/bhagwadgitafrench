@@ -16,7 +16,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   static const String _homeBannerAdUnitId =
-      'ca-app-pub-1429137343095963/5148102666';
+      'ca-app-pub-1429137343095963/9314032241';
 
   int _selectedIndex = 0;
 

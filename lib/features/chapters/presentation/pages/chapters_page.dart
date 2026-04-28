@@ -105,7 +105,7 @@ class ChaptersPage extends StatelessWidget {
 
           /// APPBAR TITLE
           title: const Text(
-            'Bhagavad Gita',
+            'Gita',
             style: TextStyle(
               color: Color(0xFFFFD700),
               fontWeight: FontWeight.bold,
