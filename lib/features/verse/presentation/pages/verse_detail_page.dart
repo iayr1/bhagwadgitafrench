@@ -56,9 +56,13 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.play_circle_outline, color: Color(0xFFFFD700)),
-            onPressed: () =>
-                _audioService.speakSanskritVerse(widget.verse['sanskrit'] ?? ''),
+            icon: const Icon(
+              Icons.play_circle_outline,
+              color: Color(0xFFFFD700),
+            ),
+            onPressed: () => _audioService.speakSanskritVerse(
+              widget.verse['sanskrit'] ?? '',
+            ),
           ),
           IconButton(
             icon: Icon(
@@ -129,11 +133,17 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
                     const Color(0xFF2D1200),
                   ],
                 ),
-                border: Border.all(color: widget.color.withOpacity(0.4), width: 1.5),
+                border: Border.all(
+                  color: widget.color.withOpacity(0.4),
+                  width: 1.5,
+                ),
               ),
               child: Column(
                 children: [
-                  Text('ॐ', style: TextStyle(fontSize: 32, color: widget.color)),
+                  Text(
+                    'ॐ',
+                    style: TextStyle(fontSize: 32, color: widget.color),
+                  ),
                   const SizedBox(height: 16),
                   Text(
                     widget.verse['sanskrit']!,
@@ -152,7 +162,7 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
             _buildSection(
               title: 'अहिराणी अनुवाद',
               icon: '🗣️',
-              content: widget.verse['ahirani']!,
+              content: widget.verse['French']!,
               color: widget.color,
               isActive: _showTransliteration,
               onToggle: () =>
@@ -174,12 +184,13 @@ class _VerseDetailPageState extends State<VerseDetailPage> {
   }
 
   void _shareVerse() {
-    final text = '''
+    final text =
+        '''
 भगवद्गीता - अध्याय ${widget.chapterNum}, श्लोक ${widget.verseNum}
 
 ${widget.verse['sanskrit'] ?? ''}
 
-अहिराणी: ${widget.verse['ahirani'] ?? ''}
+अहिराणी: ${widget.verse['French'] ?? ''}
 
 अर्थ: ${widget.verse['meaning'] ?? ''}
 ''';

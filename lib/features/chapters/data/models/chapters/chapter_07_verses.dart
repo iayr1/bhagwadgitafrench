@@ -1,182 +1,240 @@
 const List<Map<String, String>> chapter07Verses = [
   {
     'num': '1',
-    'sanskrit': 'श्रीभगवानुवाच | मय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः | असंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु ||',
-    'ahirani': 'Attache ton esprit à moi, pratique le yoga sous ma protection — ainsi tu me connaîtras complètement, sans doute.',
-    'meaning': 'O Partha, fix your mind on Me and practice yoga under My shelter; thus you will know Me fully without doubt.',
+    'sanskrit':
+        'श्रीभगवानुवाच | मय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः | असंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु ||',
+    'French':
+        'Attache ton esprit à moi, pratique le yoga sous ma protection — ainsi tu me connaîtras complètement, sans doute.',
+    'meaning':
+        'O Partha, fix your mind on Me and practice yoga under My shelter; thus you will know Me fully without doubt.',
   },
   {
     'num': '2',
-    'sanskrit': 'ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः | यज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते ||',
-    'ahirani': 'Je vais t’expliquer la connaissance et la réalisation complète — après cela, rien d’autre ne restera à connaître.',
-    'meaning': 'I will explain knowledge along with realization; knowing this, nothing more remains to be known.',
+    'sanskrit':
+        'ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः | यज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते ||',
+    'French':
+        'Je vais t’expliquer la connaissance et la réalisation complète — après cela, rien d’autre ne restera à connaître.',
+    'meaning':
+        'I will explain knowledge along with realization; knowing this, nothing more remains to be known.',
   },
   {
     'num': '3',
-    'sanskrit': 'मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये | यततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ||',
-    'ahirani': 'Parmi des milliers, rares sont ceux qui cherchent la perfection, et encore plus rares sont ceux qui me connaissent vraiment.',
-    'meaning': 'Among thousands, few strive for perfection, and even fewer truly know Me.',
+    'sanskrit':
+        'मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये | यततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ||',
+    'French':
+        'Parmi des milliers, rares sont ceux qui cherchent la perfection, et encore plus rares sont ceux qui me connaissent vraiment.',
+    'meaning':
+        'Among thousands, few strive for perfection, and even fewer truly know Me.',
   },
   {
     'num': '4',
-    'sanskrit': 'भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च | अहंकार इतीयं मे भिन्ना प्रकृतिरष्टधा ||',
-    'ahirani': 'La terre, l’eau, le feu, l’air, l’espace, le mental, l’intellect et l’ego — ce sont mes huit énergies matérielles.',
-    'meaning': 'Earth, water, fire, air, space, mind, intellect, and ego are My eight separated energies.',
+    'sanskrit':
+        'भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च | अहंकार इतीयं मे भिन्ना प्रकृतिरष्टधा ||',
+    'French':
+        'La terre, l’eau, le feu, l’air, l’espace, le mental, l’intellect et l’ego — ce sont mes huit énergies matérielles.',
+    'meaning':
+        'Earth, water, fire, air, space, mind, intellect, and ego are My eight separated energies.',
   },
   {
     'num': '5',
-    'sanskrit': 'अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् | जीवभूतां महाबाहो ययेदं धार्यते जगत् ||',
-    'ahirani': 'Au-delà de cela, il existe une énergie supérieure — les êtres vivants qui soutiennent le monde.',
-    'meaning': 'Besides this, there is a superior energy — the living beings who sustain the world.',
+    'sanskrit':
+        'अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् | जीवभूतां महाबाहो ययेदं धार्यते जगत् ||',
+    'French':
+        'Au-delà de cela, il existe une énergie supérieure — les êtres vivants qui soutiennent le monde.',
+    'meaning':
+        'Besides this, there is a superior energy — the living beings who sustain the world.',
   },
   {
     'num': '6',
-    'sanskrit': 'एतद्योनीनि भूतानि सर्वाणीत्युपधारय | अहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा ||',
-    'ahirani': 'Toutes les créations viennent de moi — je suis l’origine et la fin.',
-    'meaning': 'All beings arise from Me; I am the source and dissolution of everything.',
+    'sanskrit':
+        'एतद्योनीनि भूतानि सर्वाणीत्युपधारय | अहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा ||',
+    'French':
+        'Toutes les créations viennent de moi — je suis l’origine et la fin.',
+    'meaning':
+        'All beings arise from Me; I am the source and dissolution of everything.',
   },
   {
     'num': '7',
-    'sanskrit': 'मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय | मयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ||',
-    'ahirani': 'Rien n’est supérieur à moi — tout est lié en moi comme des perles sur un fil.',
-    'meaning': 'Nothing is higher than Me; everything rests in Me like pearls on a thread.',
+    'sanskrit':
+        'मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय | मयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ||',
+    'French':
+        'Rien n’est supérieur à moi — tout est lié en moi comme des perles sur un fil.',
+    'meaning':
+        'Nothing is higher than Me; everything rests in Me like pearls on a thread.',
   },
   {
     'num': '8',
-    'sanskrit': 'रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः | प्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु ||',
-    'ahirani': 'Je suis le goût dans l’eau, la lumière du soleil et de la lune, le son et la force chez les humains.',
-    'meaning': 'I am the taste in water, the light of sun and moon, the sound in space, and strength in humans.',
+    'sanskrit':
+        'रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः | प्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु ||',
+    'French':
+        'Je suis le goût dans l’eau, la lumière du soleil et de la lune, le son et la force chez les humains.',
+    'meaning':
+        'I am the taste in water, the light of sun and moon, the sound in space, and strength in humans.',
   },
   {
     'num': '9',
-    'sanskrit': 'पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ | जीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ||',
-    'ahirani': 'Je suis le parfum de la terre, la chaleur du feu, la vie et l’énergie spirituelle.',
-    'meaning': 'I am the fragrance of earth, heat of fire, life in all beings, and austerity.',
+    'sanskrit':
+        'पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ | जीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ||',
+    'French':
+        'Je suis le parfum de la terre, la chaleur du feu, la vie et l’énergie spirituelle.',
+    'meaning':
+        'I am the fragrance of earth, heat of fire, life in all beings, and austerity.',
   },
   {
     'num': '10',
-    'sanskrit': 'बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम् | बुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम् ||',
-    'ahirani': 'Je suis la graine éternelle de tous — intelligence et puissance viennent de moi.',
-    'meaning': 'I am the eternal seed of all beings; intelligence and strength come from Me.',
+    'sanskrit':
+        'बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम् | बुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम् ||',
+    'French':
+        'Je suis la graine éternelle de tous — intelligence et puissance viennent de moi.',
+    'meaning':
+        'I am the eternal seed of all beings; intelligence and strength come from Me.',
   },
   {
     'num': '11',
-    'sanskrit': 'बलं बलवतां चाहं कामरागविवर्जितम् | धर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ ||',
-    'ahirani': 'Je suis la force sans désir, et le désir conforme au dharma.',
-    'meaning': 'I am strength free from desire, and desire aligned with dharma.',
+    'sanskrit':
+        'बलं बलवतां चाहं कामरागविवर्जितम् | धर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ ||',
+    'French': 'Je suis la force sans désir, et le désir conforme au dharma.',
+    'meaning':
+        'I am strength free from desire, and desire aligned with dharma.',
   },
   {
     'num': '12',
-    'sanskrit': 'ये चैव सात्त्विका भावा राजसास्तामसाश्च ये | मत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ||',
-    'ahirani': 'Tous les états viennent de moi, mais je ne suis pas limité par eux.',
+    'sanskrit':
+        'ये चैव सात्त्विका भावा राजसास्तामसाश्च ये | मत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ||',
+    'French':
+        'Tous les états viennent de moi, mais je ne suis pas limité par eux.',
     'meaning': 'All qualities arise from Me, yet I am beyond them.',
   },
   {
     'num': '13',
-    'sanskrit': 'त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत् | मोहितं नाभिजानाति मामेभ्यः परमव्ययम् ||',
-    'ahirani': 'Le monde est trompé par les गुण et ne me reconnaît pas.',
-    'meaning': 'The world is deluded by the three qualities and fails to know Me.',
+    'sanskrit':
+        'त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत् | मोहितं नाभिजानाति मामेभ्यः परमव्ययम् ||',
+    'French': 'Le monde est trompé par les गुण et ne me reconnaît pas.',
+    'meaning':
+        'The world is deluded by the three qualities and fails to know Me.',
   },
   {
     'num': '14',
-    'sanskrit': 'दैवी ह्येषा गुणमयी मम माया दुरत्यया | मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ||',
-    'ahirani': 'Ma maya est difficile, mais ceux qui me suivent la dépassent.',
-    'meaning': 'My divine illusion is hard to overcome, but those who surrender to Me cross it.',
+    'sanskrit':
+        'दैवी ह्येषा गुणमयी मम माया दुरत्यया | मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ||',
+    'French': 'Ma maya est difficile, mais ceux qui me suivent la dépassent.',
+    'meaning':
+        'My divine illusion is hard to overcome, but those who surrender to Me cross it.',
   },
   {
     'num': '15',
-    'sanskrit': 'न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः | माययापहृतज्ञाना आसुरं भावमाश्रिताः ||',
-    'ahirani': 'Les ignorants et les mauvais ne me suivent pas.',
+    'sanskrit':
+        'न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः | माययापहृतज्ञाना आसुरं भावमाश्रिताः ||',
+    'French': 'Les ignorants et les mauvais ne me suivent pas.',
     'meaning': 'The foolish and wicked do not surrender to Me.',
   },
   {
     'num': '16',
-    'sanskrit': 'चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन | आर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ ||',
-    'ahirani': 'Quatre types de personnes me suivent — ceux en souffrance, curieux, chercheurs de richesse et sages.',
-    'meaning': 'Four types of people worship Me — distressed, seekers, wealth-seekers, and the wise.',
+    'sanskrit':
+        'चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन | आर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ ||',
+    'French':
+        'Quatre types de personnes me suivent — ceux en souffrance, curieux, chercheurs de richesse et sages.',
+    'meaning':
+        'Four types of people worship Me — distressed, seekers, wealth-seekers, and the wise.',
   },
   {
     'num': '17',
-    'sanskrit': 'तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते | प्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः ||',
-    'ahirani': 'Le sage est le plus proche de moi — nous nous aimons mutuellement.',
-    'meaning': 'The wise are most devoted to Me, and we are dear to each other.',
+    'sanskrit':
+        'तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते | प्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः ||',
+    'French':
+        'Le sage est le plus proche de moi — nous nous aimons mutuellement.',
+    'meaning':
+        'The wise are most devoted to Me, and we are dear to each other.',
   },
   {
     'num': '18',
-    'sanskrit': 'उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम् | आस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम् ||',
-    'ahirani': 'Tous sont bons, mais le sage est comme mon propre soi.',
+    'sanskrit':
+        'उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम् | आस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम् ||',
+    'French': 'Tous sont bons, mais le sage est comme mon propre soi.',
     'meaning': 'All are noble, but the wise are like My own self.',
   },
   {
     'num': '19',
-    'sanskrit': 'बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते | वासुदेवः सर्वमिति स महात्मा सुदुर्लभः ||',
-    'ahirani': 'Après de nombreuses vies, le sage réalise que tout est divin.',
+    'sanskrit':
+        'बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते | वासुदेवः सर्वमिति स महात्मा सुदुर्लभः ||',
+    'French': 'Après de nombreuses vies, le sage réalise que tout est divin.',
     'meaning': 'After many births, the wise realize everything is divine.',
   },
   {
     'num': '20',
-    'sanskrit': 'कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः | तं तं नियममास्थाय प्रकृत्या नियताः स्वया ||',
-    'ahirani': 'Ceux guidés par leurs désirs suivent d’autres chemins.',
+    'sanskrit':
+        'कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः | तं तं नियममास्थाय प्रकृत्या नियताः स्वया ||',
+    'French': 'Ceux guidés par leurs désirs suivent d’autres chemins.',
     'meaning': 'Those driven by desires worship other deities.',
   },
   {
     'num': '21',
-    'sanskrit': 'यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति | तस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ||',
-    'ahirani': 'Je rends leur foi stable selon leur dévotion.',
+    'sanskrit':
+        'यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति | तस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ||',
+    'French': 'Je rends leur foi stable selon leur dévotion.',
     'meaning': 'I strengthen the faith of each devotee.',
   },
   {
     'num': '22',
-    'sanskrit': 'स तया श्रद्धया युक्तस्तस्याराधनमीहते | लभते च ततः कामान्मयैव विहितान्हि तान् ||',
-    'ahirani': 'Ils obtiennent leurs désirs — mais c’est moi qui les accorde.',
+    'sanskrit':
+        'स तया श्रद्धया युक्तस्तस्याराधनमीहते | लभते च ततः कामान्मयैव विहितान्हि तान् ||',
+    'French': 'Ils obtiennent leurs désirs — mais c’est moi qui les accorde.',
     'meaning': 'They gain their desires, but I grant them.',
   },
   {
     'num': '23',
-    'sanskrit': 'अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम् | देवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि ||',
-    'ahirani': 'Les résultats sont temporaires — mes dévots viennent à moi.',
+    'sanskrit':
+        'अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम् | देवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि ||',
+    'French': 'Les résultats sont temporaires — mes dévots viennent à moi.',
     'meaning': 'Results are temporary; My devotees come to Me.',
   },
   {
     'num': '24',
-    'sanskrit': 'अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः | परं भावमजानन्तो ममाव्ययमनुत्तमम् ||',
-    'ahirani': 'Les ignorants ne comprennent pas ma vraie nature.',
+    'sanskrit':
+        'अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः | परं भावमजानन्तो ममाव्ययमनुत्तमम् ||',
+    'French': 'Les ignorants ne comprennent pas ma vraie nature.',
     'meaning': 'The ignorant think I am limited in form.',
   },
   {
     'num': '25',
-    'sanskrit': 'नाहं प्रकाशः सर्वस्य योगमायासमावृतः | मूढोऽयं नाभिजानाति लोको मामजमव्ययम् ||',
-    'ahirani': 'Je ne suis pas visible à tous à cause de la maya.',
+    'sanskrit':
+        'नाहं प्रकाशः सर्वस्य योगमायासमावृतः | मूढोऽयं नाभिजानाति लोको मामजमव्ययम् ||',
+    'French': 'Je ne suis pas visible à tous à cause de la maya.',
     'meaning': 'I am not visible to all due to divine illusion.',
   },
   {
     'num': '26',
-    'sanskrit': 'वेदाहं समतीतानि वर्तमानानि चार्जुन | भविष्याणि च भूतानि मां तु वेद न कश्चन ||',
-    'ahirani': 'Je connais tout — passé, présent et futur.',
+    'sanskrit':
+        'वेदाहं समतीतानि वर्तमानानि चार्जुन | भविष्याणि च भूतानि मां तु वेद न कश्चन ||',
+    'French': 'Je connais tout — passé, présent et futur.',
     'meaning': 'I know all beings past, present, and future.',
   },
   {
     'num': '27',
-    'sanskrit': 'इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत | सर्वभूतानि सम्मोहं सर्गे यान्ति परन्तप ||',
-    'ahirani': 'Les désirs et la haine créent l’illusion.',
+    'sanskrit':
+        'इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत | सर्वभूतानि सम्मोहं सर्गे यान्ति परन्तप ||',
+    'French': 'Les désirs et la haine créent l’illusion.',
     'meaning': 'Desire and hatred create delusion.',
   },
   {
     'num': '28',
-    'sanskrit': 'येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम् | ते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः ||',
-    'ahirani': 'Les purs me suivent avec détermination.',
+    'sanskrit':
+        'येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम् | ते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः ||',
+    'French': 'Les purs me suivent avec détermination.',
     'meaning': 'The purified worship Me with determination.',
   },
   {
     'num': '29',
-    'sanskrit': 'जरामरणमोक्षाय मामाश्रित्य यतन्ति ये | ते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् ||',
-    'ahirani': 'Ceux qui cherchent la libération comprennent tout.',
+    'sanskrit':
+        'जरामरणमोक्षाय मामाश्रित्य यतन्ति ये | ते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् ||',
+    'French': 'Ceux qui cherchent la libération comprennent tout.',
     'meaning': 'Those seeking liberation understand everything.',
   },
   {
     'num': '30',
-    'sanskrit': 'साधिभूताधिदैवं मां साधियज्ञं च ये विदुः | प्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः ||',
-    'ahirani': 'Même au moment de la mort, ils me réalisent.',
+    'sanskrit':
+        'साधिभूताधिदैवं मां साधियज्ञं च ये विदुः | प्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः ||',
+    'French': 'Même au moment de la mort, ils me réalisent.',
     'meaning': 'Even at death, they know Me.',
   },
 ];

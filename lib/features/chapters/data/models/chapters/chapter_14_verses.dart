@@ -1,164 +1,197 @@
 const List<Map<String, String>> chapter14Verses = [
   {
     'num': '1',
-    'sanskrit': 'श्रीभगवानुवाच | परं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम् | यज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः ||',
-    'ahirani': 'Je vais expliquer la connaissance suprême — par elle, les sages atteignent la perfection.',
-    'meaning': 'I will again explain the highest knowledge, by which sages attain perfection.',
+    'sanskrit':
+        'श्रीभगवानुवाच | परं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम् | यज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः ||',
+    'French':
+        'Je vais expliquer la connaissance suprême — par elle, les sages atteignent la perfection.',
+    'meaning':
+        'I will again explain the highest knowledge, by which sages attain perfection.',
   },
   {
     'num': '2',
-    'sanskrit': 'इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः | सर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च ||',
-    'ahirani': 'Ceux qui réalisent cela deviennent comme moi et échappent à naissance et destruction.',
-    'meaning': 'Those who realize this become like Me and are free from birth and destruction.',
+    'sanskrit':
+        'इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः | सर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च ||',
+    'French':
+        'Ceux qui réalisent cela deviennent comme moi et échappent à naissance et destruction.',
+    'meaning':
+        'Those who realize this become like Me and are free from birth and destruction.',
   },
   {
     'num': '3',
-    'sanskrit': 'मम योनिर्महद्ब्रह्म तस्मिन्गर्भं दधाम्यहम् | सम्भवः सर्वभूतानां ततो भवति भारत ||',
-    'ahirani': 'La nature est mon origine — j’y place la vie.',
+    'sanskrit':
+        'मम योनिर्महद्ब्रह्म तस्मिन्गर्भं दधाम्यहम् | सम्भवः सर्वभूतानां ततो भवति भारत ||',
+    'French': 'La nature est mon origine — j’y place la vie.',
     'meaning': 'Nature is My womb, where I place life.',
   },
   {
     'num': '4',
-    'sanskrit': 'सर्वयोनिषु कौन्तेय मूर्तयः सम्भवन्ति याः | तासां ब्रह्म महद्योनिरहं बीजप्रदः पिता ||',
-    'ahirani': 'Je suis le père de tous les êtres.',
+    'sanskrit':
+        'सर्वयोनिषु कौन्तेय मूर्तयः सम्भवन्ति याः | तासां ब्रह्म महद्योनिरहं बीजप्रदः पिता ||',
+    'French': 'Je suis le père de tous les êtres.',
     'meaning': 'I am the seed-giving father of all beings.',
   },
   {
     'num': '5',
-    'sanskrit': 'सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः | निबध्नन्ति महाबाहो देहे देहिनमव्ययम् ||',
-    'ahirani': 'Les trois गुण lient l’âme au corps.',
+    'sanskrit':
+        'सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः | निबध्नन्ति महाबाहो देहे देहिनमव्ययम् ||',
+    'French': 'Les trois गुण lient l’âme au corps.',
     'meaning': 'The three qualities bind the soul to the body.',
   },
   {
     'num': '6',
-    'sanskrit': 'तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम् | सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ ||',
-    'ahirani': 'La pureté lie par bonheur et connaissance.',
+    'sanskrit':
+        'तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम् | सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ ||',
+    'French': 'La pureté lie par bonheur et connaissance.',
     'meaning': 'Purity binds through happiness and knowledge.',
   },
   {
     'num': '7',
-    'sanskrit': 'रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम् | तन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम् ||',
-    'ahirani': 'La passion lie par désir et action.',
+    'sanskrit':
+        'रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम् | तन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम् ||',
+    'French': 'La passion lie par désir et action.',
     'meaning': 'Passion binds through desire and action.',
   },
   {
     'num': '8',
-    'sanskrit': 'तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम् | प्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत ||',
-    'ahirani': 'L’ignorance lie par paresse et illusion.',
+    'sanskrit':
+        'तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम् | प्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत ||',
+    'French': 'L’ignorance lie par paresse et illusion.',
     'meaning': 'Ignorance binds through laziness and delusion.',
   },
   {
     'num': '9',
-    'sanskrit': 'सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत | ज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत ||',
-    'ahirani': 'Sattva donne le bonheur, rajas l’action, tamas l’ignorance.',
-    'meaning': 'Sattva leads to happiness, rajas to action, tamas to ignorance.',
+    'sanskrit':
+        'सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत | ज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत ||',
+    'French': 'Sattva donne le bonheur, rajas l’action, tamas l’ignorance.',
+    'meaning':
+        'Sattva leads to happiness, rajas to action, tamas to ignorance.',
   },
   {
     'num': '10',
-    'sanskrit': 'रजस्तमश्चाभिभूय सत्त्वं भवति भारत | रजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा ||',
-    'ahirani': 'Les गुण dominent tour à tour.',
+    'sanskrit':
+        'रजस्तमश्चाभिभूय सत्त्वं भवति भारत | रजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा ||',
+    'French': 'Les गुण dominent tour à tour.',
     'meaning': 'The qualities dominate each other in turn.',
   },
   {
     'num': '11',
-    'sanskrit': 'सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते | ज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत ||',
-    'ahirani': 'Quand la lumière apparaît, sattva augmente.',
+    'sanskrit':
+        'सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते | ज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत ||',
+    'French': 'Quand la lumière apparaît, sattva augmente.',
     'meaning': 'When light appears, sattva increases.',
   },
   {
     'num': '12',
-    'sanskrit': 'लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा | रजस्येतानि जायन्ते विवृद्धे भरतर्षभ ||',
-    'ahirani': 'Le désir et l’agitation viennent de rajas.',
+    'sanskrit':
+        'लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा | रजस्येतानि जायन्ते विवृद्धे भरतर्षभ ||',
+    'French': 'Le désir et l’agitation viennent de rajas.',
     'meaning': 'Desire and restlessness come from rajas.',
   },
   {
     'num': '13',
-    'sanskrit': 'अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च | तमस्येतानि जायन्ते विवृद्धे कुरुनन्दन ||',
-    'ahirani': 'L’obscurité et l’illusion viennent de tamas.',
+    'sanskrit':
+        'अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च | तमस्येतानि जायन्ते विवृद्धे कुरुनन्दन ||',
+    'French': 'L’obscurité et l’illusion viennent de tamas.',
     'meaning': 'Darkness and delusion come from tamas.',
   },
   {
     'num': '14',
-    'sanskrit': 'यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत् | तदोत्तमविदां लोकानमलान्प्रतिपद्यते ||',
-    'ahirani': 'La mort en sattva mène à des mondes élevés.',
+    'sanskrit':
+        'यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत् | तदोत्तमविदां लोकानमलान्प्रतिपद्यते ||',
+    'French': 'La mort en sattva mène à des mondes élevés.',
     'meaning': 'Death in sattva leads to higher worlds.',
   },
   {
     'num': '15',
-    'sanskrit': 'रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते | तथा प्रलीनस्तमसि मूढयोनिषु जायते ||',
-    'ahirani': 'Rajas mène à l’action, tamas à l’ignorance.',
+    'sanskrit':
+        'रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते | तथा प्रलीनस्तमसि मूढयोनिषु जायते ||',
+    'French': 'Rajas mène à l’action, tamas à l’ignorance.',
     'meaning': 'Rajas leads to action-based rebirth, tamas to ignorance.',
   },
   {
     'num': '16',
-    'sanskrit': 'कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम् | रजसस्तु फलं दुःखमज्ञानं तमसः फलम् ||',
-    'ahirani': 'Les fruits varient selon les गुण.',
+    'sanskrit':
+        'कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम् | रजसस्तु फलं दुःखमज्ञानं तमसः फलम् ||',
+    'French': 'Les fruits varient selon les गुण.',
     'meaning': 'Results differ based on qualities.',
   },
   {
     'num': '17',
-    'sanskrit': 'सत्त्वात्सञ्जायते ज्ञानं रजसो लोभ एव च | प्रमादमोहौ तमसो भवतोऽज्ञानमेव च ||',
-    'ahirani': 'Sattva donne la connaissance, tamas l’ignorance.',
+    'sanskrit':
+        'सत्त्वात्सञ्जायते ज्ञानं रजसो लोभ एव च | प्रमादमोहौ तमसो भवतोऽज्ञानमेव च ||',
+    'French': 'Sattva donne la connaissance, tamas l’ignorance.',
     'meaning': 'Sattva gives knowledge, tamas ignorance.',
   },
   {
     'num': '18',
-    'sanskrit': 'ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः | जघन्यगुणवृत्तिस्था अधो गच्छन्ति तामसाः ||',
-    'ahirani': 'Sattva élève, tamas abaisse.',
+    'sanskrit':
+        'ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः | जघन्यगुणवृत्तिस्था अधो गच्छन्ति तामसाः ||',
+    'French': 'Sattva élève, tamas abaisse.',
     'meaning': 'Sattva elevates, tamas degrades.',
   },
   {
     'num': '19',
-    'sanskrit': 'नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति | गुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति ||',
-    'ahirani': 'Voir au-delà des गुण mène à moi.',
+    'sanskrit':
+        'नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति | गुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति ||',
+    'French': 'Voir au-delà des गुण mène à moi.',
     'meaning': 'Seeing beyond qualities leads to Me.',
   },
   {
     'num': '20',
-    'sanskrit': 'गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान् | जन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते ||',
-    'ahirani': 'Dépasser les गुण mène à la libération.',
+    'sanskrit':
+        'गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान् | जन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते ||',
+    'French': 'Dépasser les गुण mène à la libération.',
     'meaning': 'Transcending qualities leads to liberation.',
   },
   {
     'num': '21',
-    'sanskrit': 'अर्जुन उवाच | कैर्लिङ्गैस्त्रीन्गुणानेतानतीतो भवति प्रभो | किमाचारः कथं चैतांस्त्रीन्गुणानतिवर्तते ||',
-    'ahirani': 'Comment reconnaître celui qui dépasse les गुण ?',
+    'sanskrit':
+        'अर्जुन उवाच | कैर्लिङ्गैस्त्रीन्गुणानेतानतीतो भवति प्रभो | किमाचारः कथं चैतांस्त्रीन्गुणानतिवर्तते ||',
+    'French': 'Comment reconnaître celui qui dépasse les गुण ?',
     'meaning': 'How to recognize one beyond qualities?',
   },
   {
     'num': '22',
-    'sanskrit': 'श्रीभगवानुवाच | प्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव | न द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति ||',
-    'ahirani': 'Il n’aime ni ne déteste les गुण.',
+    'sanskrit':
+        'श्रीभगवानुवाच | प्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव | न द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति ||',
+    'French': 'Il n’aime ni ne déteste les गुण.',
     'meaning': 'He neither hates nor desires the qualities.',
   },
   {
     'num': '23',
-    'sanskrit': 'उदासीनवदासीनो गुणैर्यो न विचाल्यते | गुणा वर्तन्त इत्येव योऽवतिष्ठति नेङ्गते ||',
-    'ahirani': 'Il reste stable et détaché.',
+    'sanskrit':
+        'उदासीनवदासीनो गुणैर्यो न विचाल्यते | गुणा वर्तन्त इत्येव योऽवतिष्ठति नेङ्गते ||',
+    'French': 'Il reste stable et détaché.',
     'meaning': 'He remains steady and detached.',
   },
   {
     'num': '24',
-    'sanskrit': 'समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः | तुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः ||',
-    'ahirani': 'Équilibré en tout.',
+    'sanskrit':
+        'समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः | तुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः ||',
+    'French': 'Équilibré en tout.',
     'meaning': 'Balanced in all situations.',
   },
   {
     'num': '25',
-    'sanskrit': 'मानापमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः | सर्वारम्भपरित्यागी गुणातीतः स उच्यते ||',
-    'ahirani': 'Libre des dualités.',
+    'sanskrit':
+        'मानापमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः | सर्वारम्भपरित्यागी गुणातीतः स उच्यते ||',
+    'French': 'Libre des dualités.',
     'meaning': 'Free from dualities.',
   },
   {
     'num': '26',
-    'sanskrit': 'मां च योऽव्यभिचारेण भक्तियोगेन सेवते | स गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते ||',
-    'ahirani': 'La dévotion mène au-delà des गुण.',
+    'sanskrit':
+        'मां च योऽव्यभिचारेण भक्तियोगेन सेवते | स गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते ||',
+    'French': 'La dévotion mène au-delà des गुण.',
     'meaning': 'Devotion transcends the qualities.',
   },
   {
     'num': '27',
-    'sanskrit': 'ब्रह्मणो हि प्रतिष्ठाहममृतस्याव्ययस्य च | शाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च ||',
-    'ahirani': 'Je suis la base de l’éternel et du bonheur.',
-    'meaning': 'I am the foundation of eternal bliss. :contentReference[oaicite:2]{index=2}',
+    'sanskrit':
+        'ब्रह्मणो हि प्रतिष्ठाहममृतस्याव्ययस्य च | शाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च ||',
+    'French': 'Je suis la base de l’éternel et du bonheur.',
+    'meaning':
+        'I am the foundation of eternal bliss. :contentReference[oaicite:2]{index=2}',
   },
 ];

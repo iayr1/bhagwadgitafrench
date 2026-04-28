@@ -5,7 +5,12 @@ class ChapterCard extends StatelessWidget {
   final Color color;
   final VoidCallback onTap;
 
-  const ChapterCard({super.key, required this.chapter, required this.color, required this.onTap});
+  const ChapterCard({
+    super.key,
+    required this.chapter,
+    required this.color,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -34,29 +39,78 @@ class ChapterCard extends StatelessWidget {
                   height: 56,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    gradient: RadialGradient(colors: [color.withOpacity(0.9), color.withOpacity(0.4)]),
-                    boxShadow: [BoxShadow(color: color.withOpacity(0.4), blurRadius: 12, spreadRadius: 2)],
+                    gradient: RadialGradient(
+                      colors: [color.withOpacity(0.9), color.withOpacity(0.4)],
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: color.withOpacity(0.4),
+                        blurRadius: 12,
+                        spreadRadius: 2,
+                      ),
+                    ],
                   ),
-                  child: Center(child: Text(chapter['num']!, style: const TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold))),
+                  child: Center(
+                    child: Text(
+                      chapter['num']!,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
                 ),
                 const SizedBox(width: 16),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(chapter['title']!, style: const TextStyle(color: Color(0xFFFFD700), fontSize: 15, fontWeight: FontWeight.bold)),
+                      Text(
+                        chapter['title']!,
+                        style: const TextStyle(
+                          color: Color(0xFFFFD700),
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       const SizedBox(height: 3),
-                      Text(chapter['ahirani']!, style: TextStyle(color: color, fontSize: 13, fontStyle: FontStyle.italic)),
+                      Text(
+                        chapter['French']!,
+                        style: TextStyle(
+                          color: color,
+                          fontSize: 13,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
                       const SizedBox(height: 4),
-                      Text(chapter['summary']!, style: const TextStyle(color: Color(0xFFAA7755), fontSize: 11), maxLines: 2, overflow: TextOverflow.ellipsis),
+                      Text(
+                        chapter['summary']!,
+                        style: const TextStyle(
+                          color: Color(0xFFAA7755),
+                          fontSize: 11,
+                        ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
                     ],
                   ),
                 ),
                 Column(
                   children: [
-                    Text(chapter['verses']!, style: TextStyle(color: color.withOpacity(0.8), fontSize: 11, fontWeight: FontWeight.w600)),
+                    Text(
+                      chapter['verses']!,
+                      style: TextStyle(
+                        color: color.withOpacity(0.8),
+                        fontSize: 11,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     const SizedBox(height: 8),
-                    Icon(Icons.chevron_right_rounded, color: color.withOpacity(0.7)),
+                    Icon(
+                      Icons.chevron_right_rounded,
+                      color: color.withOpacity(0.7),
+                    ),
                   ],
                 ),
               ],

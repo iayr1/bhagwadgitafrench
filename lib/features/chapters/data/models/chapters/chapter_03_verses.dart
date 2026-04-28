@@ -1,260 +1,346 @@
 const List<Map<String, String>> chapter03Verses = [
   {
     'num': '1',
-    'sanskrit': 'अर्जुन उवाच | ज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन | तत्किं कर्मणि घोरे मां नियोजयसि केशव ||',
-    'ahirani': 'Arjuna dit : Si la connaissance est supérieure à l’action, pourquoi me pousses-tu à accomplir cette action difficile ?',
-    'meaning': 'Arjuna said: If knowledge is superior to action, why do you engage me in this terrible action?',
+    'sanskrit':
+        'अर्जुन उवाच | ज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन | तत्किं कर्मणि घोरे मां नियोजयसि केशव ||',
+    'French':
+        'Arjuna dit : Si la connaissance est supérieure à l’action, pourquoi me pousses-tu à accomplir cette action difficile ?',
+    'meaning':
+        'Arjuna said: If knowledge is superior to action, why do you engage me in this terrible action?',
   },
   {
     'num': '2',
-    'sanskrit': 'व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे | तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ||',
-    'ahirani': 'Tes paroles semblent confuses et troublent mon esprit — dis-moi clairement ce qui est le meilleur pour moi.',
-    'meaning': 'Your words seem confusing and disturb my mind; tell me clearly what is best for me.',
+    'sanskrit':
+        'व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे | तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ||',
+    'French':
+        'Tes paroles semblent confuses et troublent mon esprit — dis-moi clairement ce qui est le meilleur pour moi.',
+    'meaning':
+        'Your words seem confusing and disturb my mind; tell me clearly what is best for me.',
   },
   {
     'num': '3',
-    'sanskrit': 'श्रीभगवानुवाच | लोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ | ज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम् ||',
-    'ahirani': 'Krishna dit : Il existe deux voies — la voie de la connaissance et la voie de l’action.',
-    'meaning': 'Krishna said: In this world, two paths are explained — the path of knowledge and the path of action.',
+    'sanskrit':
+        'श्रीभगवानुवाच | लोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ | ज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम् ||',
+    'French':
+        'Krishna dit : Il existe deux voies — la voie de la connaissance et la voie de l’action.',
+    'meaning':
+        'Krishna said: In this world, two paths are explained — the path of knowledge and the path of action.',
   },
   {
     'num': '4',
-    'sanskrit': 'न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते | न च सन्न्यसनादेव सिद्धिं समधिगच्छति ||',
-    'ahirani': 'On ne peut pas atteindre la liberté simplement en évitant l’action.',
+    'sanskrit':
+        'न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते | न च सन्न्यसनादेव सिद्धिं समधिगच्छति ||',
+    'French':
+        'On ne peut pas atteindre la liberté simplement en évitant l’action.',
     'meaning': 'One cannot attain freedom from action by merely avoiding work.',
   },
   {
     'num': '5',
-    'sanskrit': 'न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् | कार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ||',
-    'ahirani': 'Personne ne peut rester sans agir, même un instant.',
+    'sanskrit':
+        'न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् | कार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ||',
+    'French': 'Personne ne peut rester sans agir, même un instant.',
     'meaning': 'No one can remain without action even for a moment.',
   },
   {
     'num': '6',
-    'sanskrit': 'कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् | इन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ||',
-    'ahirani': 'Celui qui contrôle ses actions extérieurement mais pense aux plaisirs est un hypocrite.',
-    'meaning': 'One who controls the senses outwardly but dwells on desires is a hypocrite.',
+    'sanskrit':
+        'कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् | इन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ||',
+    'French':
+        'Celui qui contrôle ses actions extérieurement mais pense aux plaisirs est un hypocrite.',
+    'meaning':
+        'One who controls the senses outwardly but dwells on desires is a hypocrite.',
   },
   {
     'num': '7',
-    'sanskrit': 'यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन | कर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||',
-    'ahirani': 'Celui qui contrôle ses sens et agit sans attachement est supérieur.',
-    'meaning': 'One who controls the senses and performs actions without attachment is superior.',
+    'sanskrit':
+        'यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन | कर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||',
+    'French':
+        'Celui qui contrôle ses sens et agit sans attachement est supérieur.',
+    'meaning':
+        'One who controls the senses and performs actions without attachment is superior.',
   },
   {
     'num': '8',
-    'sanskrit': 'नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः | शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ||',
-    'ahirani': 'Fais ton devoir — l’action est meilleure que l’inaction.',
+    'sanskrit':
+        'नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः | शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ||',
+    'French': 'Fais ton devoir — l’action est meilleure que l’inaction.',
     'meaning': 'Perform your duty; action is better than inaction.',
   },
   {
     'num': '9',
-    'sanskrit': 'यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः | तदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ||',
-    'ahirani': 'Agis sans attachement pour un but supérieur — sinon l’action crée des liens.',
-    'meaning': 'Work done for sacrifice does not bind; otherwise, it causes bondage.',
+    'sanskrit':
+        'यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः | तदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ||',
+    'French':
+        'Agis sans attachement pour un but supérieur — sinon l’action crée des liens.',
+    'meaning':
+        'Work done for sacrifice does not bind; otherwise, it causes bondage.',
   },
   {
     'num': '10',
-    'sanskrit': 'सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः | अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ||',
-    'ahirani': 'Le Créateur a créé les êtres avec le sacrifice et a dit qu’il apporte prospérité.',
-    'meaning': 'The Creator created beings with sacrifice and said it would bring prosperity.',
+    'sanskrit':
+        'सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः | अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ||',
+    'French':
+        'Le Créateur a créé les êtres avec le sacrifice et a dit qu’il apporte prospérité.',
+    'meaning':
+        'The Creator created beings with sacrifice and said it would bring prosperity.',
   },
   {
     'num': '11',
-    'sanskrit': 'देवान्भावयतानेन ते देवा भावयन्तु वः | परस्परं भावयन्तः श्रेयः परमवाप्स्यथ ||',
-    'ahirani': 'En nourrissant les forces divines, elles te soutiendront en retour.',
+    'sanskrit':
+        'देवान्भावयतानेन ते देवा भावयन्तु वः | परस्परं भावयन्तः श्रेयः परमवाप्स्यथ ||',
+    'French':
+        'En nourrissant les forces divines, elles te soutiendront en retour.',
     'meaning': 'By nourishing divine forces, they will support you in return.',
   },
   {
     'num': '12',
-    'sanskrit': 'इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः | तैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ||',
-    'ahirani': 'Celui qui profite sans donner est considéré comme un voleur.',
+    'sanskrit':
+        'इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः | तैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ||',
+    'French': 'Celui qui profite sans donner est considéré comme un voleur.',
     'meaning': 'One who enjoys without offering back is a thief.',
   },
   {
     'num': '13',
-    'sanskrit': 'यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः | भुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ||',
-    'ahirani': 'Ceux qui partagent sont libérés du péché.',
+    'sanskrit':
+        'यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः | भुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ||',
+    'French': 'Ceux qui partagent sont libérés du péché.',
     'meaning': 'Those who share are freed from sin.',
   },
   {
     'num': '14',
-    'sanskrit': 'अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः | यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ||',
-    'ahirani': 'La vie dépend de la nourriture, la nourriture de la pluie, et la pluie du sacrifice.',
+    'sanskrit':
+        'अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः | यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ||',
+    'French':
+        'La vie dépend de la nourriture, la nourriture de la pluie, et la pluie du sacrifice.',
     'meaning': 'Life comes from food, food from rain, rain from sacrifice.',
   },
   {
     'num': '15',
-    'sanskrit': 'कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् | तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ||',
-    'ahirani': 'L’action vient de la vérité divine — tout est lié au sacrifice.',
-    'meaning': 'Action arises from divine knowledge; everything is connected to sacrifice.',
+    'sanskrit':
+        'कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् | तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ||',
+    'French': 'L’action vient de la vérité divine — tout est lié au sacrifice.',
+    'meaning':
+        'Action arises from divine knowledge; everything is connected to sacrifice.',
   },
   {
     'num': '16',
-    'sanskrit': 'एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः | अघायुरिन्द्रियारामो मोघं पार्थ स जीवति ||',
-    'ahirani': 'Celui qui ne suit pas ce cycle vit inutilement.',
+    'sanskrit':
+        'एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः | अघायुरिन्द्रियारामो मोघं पार्थ स जीवति ||',
+    'French': 'Celui qui ne suit pas ce cycle vit inutilement.',
     'meaning': 'One who does not follow this cycle lives in vain.',
   },
   {
     'num': '17',
-    'sanskrit': 'यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः | आत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते ||',
-    'ahirani': 'Celui qui est satisfait en lui-même n’a aucun devoir.',
+    'sanskrit':
+        'यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः | आत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते ||',
+    'French': 'Celui qui est satisfait en lui-même n’a aucun devoir.',
     'meaning': 'One who is satisfied within has no duties.',
   },
   {
     'num': '18',
-    'sanskrit': 'नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन | न चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ||',
-    'ahirani': 'Il n’a rien à gagner ou perdre.',
+    'sanskrit':
+        'नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन | न चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ||',
+    'French': 'Il n’a rien à gagner ou perdre.',
     'meaning': 'Such a person has nothing to gain or lose.',
   },
   {
     'num': '19',
-    'sanskrit': 'तस्मादसक्तः सततं कार्यं कर्म समाचर | असक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ||',
-    'ahirani': 'Agis sans attachement pour atteindre le suprême.',
+    'sanskrit':
+        'तस्मादसक्तः सततं कार्यं कर्म समाचर | असक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ||',
+    'French': 'Agis sans attachement pour atteindre le suprême.',
     'meaning': 'Perform duties without attachment to reach the supreme.',
   },
   {
     'num': '20',
-    'sanskrit': 'कर्मणैव हि संसिद्धिमास्थिता जनकादयः | लोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि ||',
-    'ahirani': 'Les grands rois ont atteint la perfection par l’action.',
+    'sanskrit':
+        'कर्मणैव हि संसिद्धिमास्थिता जनकादयः | लोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि ||',
+    'French': 'Les grands rois ont atteint la perfection par l’action.',
     'meaning': 'Great kings attained perfection through action.',
   },
   {
     'num': '21',
-    'sanskrit': 'यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः | स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ||',
-    'ahirani': 'Les gens suivent les actions des grands.',
+    'sanskrit':
+        'यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः | स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ||',
+    'French': 'Les gens suivent les actions des grands.',
     'meaning': 'People follow the example set by leaders.',
   },
   {
     'num': '22',
-    'sanskrit': 'न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन | नानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ||',
-    'ahirani': 'Je n’ai rien à accomplir, pourtant je continue d’agir.',
+    'sanskrit':
+        'न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन | नानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ||',
+    'French': 'Je n’ai rien à accomplir, pourtant je continue d’agir.',
     'meaning': 'I have nothing to gain, yet I continue to act.',
   },
   {
     'num': '23',
-    'sanskrit': 'यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः | मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||',
-    'ahirani': 'Si je cesse d’agir, les autres suivront.',
+    'sanskrit':
+        'यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः | मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||',
+    'French': 'Si je cesse d’agir, les autres suivront.',
     'meaning': 'If I stop acting, others will follow.',
   },
   {
     'num': '24',
-    'sanskrit': 'उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् | सङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||',
-    'ahirani': 'Le monde tomberait dans le chaos si je n’agissais pas.',
+    'sanskrit':
+        'उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् | सङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||',
+    'French': 'Le monde tomberait dans le chaos si je n’agissais pas.',
     'meaning': 'If I do not act, the world will fall into disorder.',
   },
   {
     'num': '25',
-    'sanskrit': 'सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत | कुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम् ||',
-    'ahirani': 'Les sages doivent agir sans attachement pour le bien du monde.',
-    'meaning': 'The wise should act without attachment for the welfare of the world.',
+    'sanskrit':
+        'सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत | कुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम् ||',
+    'French': 'Les sages doivent agir sans attachement pour le bien du monde.',
+    'meaning':
+        'The wise should act without attachment for the welfare of the world.',
   },
   {
     'num': '26',
-    'sanskrit': 'न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् | जोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन् ||',
-    'ahirani': 'Le sage ne doit pas troubler l’esprit des ignorants attachés à l’action, mais les encourager en agissant lui-même correctement.',
-    'meaning': 'A wise person should not disturb the minds of the ignorant attached to action, but should engage them by performing duties properly.',
+    'sanskrit':
+        'न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् | जोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन् ||',
+    'French':
+        'Le sage ne doit pas troubler l’esprit des ignorants attachés à l’action, mais les encourager en agissant lui-même correctement.',
+    'meaning':
+        'A wise person should not disturb the minds of the ignorant attached to action, but should engage them by performing duties properly.',
   },
   {
     'num': '27',
-    'sanskrit': 'प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः | अहंकारविमूढात्मा कर्ताहमिति मन्यते ||',
-    'ahirani': 'Toutes les actions sont accomplies par les गुण de la nature, mais celui qui est trompé par l’ego pense: “Je suis le faiseur.”',
-    'meaning': 'All actions are performed by the qualities of nature, but one deluded by ego thinks, “I am the doer.”',
+    'sanskrit':
+        'प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः | अहंकारविमूढात्मा कर्ताहमिति मन्यते ||',
+    'French':
+        'Toutes les actions sont accomplies par les गुण de la nature, mais celui qui est trompé par l’ego pense: “Je suis le faiseur.”',
+    'meaning':
+        'All actions are performed by the qualities of nature, but one deluded by ego thinks, “I am the doer.”',
   },
   {
     'num': '28',
-    'sanskrit': 'तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः | गुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ||',
-    'ahirani': 'Celui qui connaît la vérité comprend que les गुण agissent sur les गुण et reste détaché.',
-    'meaning': 'One who knows the truth understands that qualities act upon qualities and remains unattached.',
+    'sanskrit':
+        'तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः | गुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ||',
+    'French':
+        'Celui qui connaît la vérité comprend que les गुण agissent sur les गुण et reste détaché.',
+    'meaning':
+        'One who knows the truth understands that qualities act upon qualities and remains unattached.',
   },
   {
     'num': '29',
-    'sanskrit': 'प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु | तानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ||',
-    'ahirani': 'Les ignorants, confondus par les गुण, s’attachent aux actions — le sage ne doit pas les perturber.',
-    'meaning': 'The ignorant are attached to actions due to nature’s qualities; the wise should not disturb them.',
+    'sanskrit':
+        'प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु | तानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ||',
+    'French':
+        'Les ignorants, confondus par les गुण, s’attachent aux actions — le sage ne doit pas les perturber.',
+    'meaning':
+        'The ignorant are attached to actions due to nature’s qualities; the wise should not disturb them.',
   },
   {
     'num': '30',
-    'sanskrit': 'मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा | निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||',
-    'ahirani': 'Offre toutes tes actions à moi, sans attachement ni ego, et accomplis ton devoir avec calme.',
-    'meaning': 'Surrender all actions to Me, free from desire and ego, and perform your duty without anxiety.',
+    'sanskrit':
+        'मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा | निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||',
+    'French':
+        'Offre toutes tes actions à moi, sans attachement ni ego, et accomplis ton devoir avec calme.',
+    'meaning':
+        'Surrender all actions to Me, free from desire and ego, and perform your duty without anxiety.',
   },
   {
     'num': '31',
-    'sanskrit': 'ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः | श्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ||',
-    'ahirani': 'Ceux qui suivent cet enseignement avec foi sont libérés du karma.',
-    'meaning': 'Those who follow this teaching with faith are freed from actions.',
+    'sanskrit':
+        'ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः | श्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ||',
+    'French':
+        'Ceux qui suivent cet enseignement avec foi sont libérés du karma.',
+    'meaning':
+        'Those who follow this teaching with faith are freed from actions.',
   },
   {
     'num': '32',
-    'sanskrit': 'ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् | सर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः ||',
-    'ahirani': 'Ceux qui rejettent cet enseignement sont perdus et confus.',
+    'sanskrit':
+        'ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् | सर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः ||',
+    'French': 'Ceux qui rejettent cet enseignement sont perdus et confus.',
     'meaning': 'Those who reject this teaching are deluded and lost.',
   },
   {
     'num': '33',
-    'sanskrit': 'सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि | प्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ||',
-    'ahirani': 'Même le sage agit selon sa nature — le contrôle forcé ne sert à rien.',
-    'meaning': 'Even the wise act according to their nature; repression is ineffective.',
+    'sanskrit':
+        'सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि | प्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ||',
+    'French':
+        'Même le sage agit selon sa nature — le contrôle forcé ne sert à rien.',
+    'meaning':
+        'Even the wise act according to their nature; repression is ineffective.',
   },
   {
     'num': '34',
-    'sanskrit': 'इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ | तयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ ||',
-    'ahirani': 'Attirance et aversion existent dans les sens — ne te laisse pas dominer par eux.',
-    'meaning': 'Attachment and aversion exist in the senses; one should not be controlled by them.',
+    'sanskrit':
+        'इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ | तयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ ||',
+    'French':
+        'Attirance et aversion existent dans les sens — ne te laisse pas dominer par eux.',
+    'meaning':
+        'Attachment and aversion exist in the senses; one should not be controlled by them.',
   },
   {
     'num': '35',
-    'sanskrit': 'श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||',
-    'ahirani': 'Il vaut mieux suivre son propre devoir, même imparfaitement.',
+    'sanskrit':
+        'श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||',
+    'French': 'Il vaut mieux suivre son propre devoir, même imparfaitement.',
     'meaning': 'It is better to follow one’s own duty, even imperfectly.',
   },
   {
     'num': '36',
-    'sanskrit': 'अर्जुन उवाच | अथ केन प्रयुक्तोऽयं पापं चरति पूरुषः | अनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ||',
-    'ahirani': 'Arjuna dit : Qu’est-ce qui pousse une personne à faire le mal contre sa volonté ?',
-    'meaning': 'Arjuna said: What forces a person to commit sin against their will?',
+    'sanskrit':
+        'अर्जुन उवाच | अथ केन प्रयुक्तोऽयं पापं चरति पूरुषः | अनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ||',
+    'French':
+        'Arjuna dit : Qu’est-ce qui pousse une personne à faire le mal contre sa volonté ?',
+    'meaning':
+        'Arjuna said: What forces a person to commit sin against their will?',
   },
   {
     'num': '37',
-    'sanskrit': 'श्रीभगवानुवाच | काम एष क्रोध एष रजोगुणसमुद्भवः | महाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||',
-    'ahirani': 'Krishna dit : C’est le désir et la colère — nés du गुण de passion — les véritables ennemis.',
-    'meaning': 'Krishna said: It is desire and anger, born of passion, the great enemies.',
+    'sanskrit':
+        'श्रीभगवानुवाच | काम एष क्रोध एष रजोगुणसमुद्भवः | महाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||',
+    'French':
+        'Krishna dit : C’est le désir et la colère — nés du गुण de passion — les véritables ennemis.',
+    'meaning':
+        'Krishna said: It is desire and anger, born of passion, the great enemies.',
   },
   {
     'num': '38',
-    'sanskrit': 'धूमेनाव्रियते वह्निर्यथादर्शो मलेन च | यथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ||',
-    'ahirani': 'Comme la fumée couvre le feu, le désir couvre la connaissance.',
+    'sanskrit':
+        'धूमेनाव्रियते वह्निर्यथादर्शो मलेन च | यथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ||',
+    'French': 'Comme la fumée couvre le feu, le désir couvre la connaissance.',
     'meaning': 'Just as smoke covers fire, desire covers knowledge.',
   },
   {
     'num': '39',
-    'sanskrit': 'आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा | कामरूपेण कौन्तेय दुष्पूरेणानलेन च ||',
-    'ahirani': 'Le désir est un feu insatiable qui cache la connaissance.',
+    'sanskrit':
+        'आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा | कामरूपेण कौन्तेय दुष्पूरेणानलेन च ||',
+    'French': 'Le désir est un feu insatiable qui cache la connaissance.',
     'meaning': 'Desire is an insatiable fire that hides knowledge.',
   },
   {
     'num': '40',
-    'sanskrit': 'इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते | एतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम् ||',
-    'ahirani': 'Le désir réside dans les sens, le mental et l’intellect.',
+    'sanskrit':
+        'इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते | एतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम् ||',
+    'French': 'Le désir réside dans les sens, le mental et l’intellect.',
     'meaning': 'Desire resides in the senses, mind, and intellect.',
   },
   {
     'num': '41',
-    'sanskrit': 'तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ | पाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ||',
-    'ahirani': 'Contrôle d’abord les sens et détruis cet ennemi.',
+    'sanskrit':
+        'तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ | पाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ||',
+    'French': 'Contrôle d’abord les sens et détruis cet ennemi.',
     'meaning': 'Control the senses and destroy this enemy of knowledge.',
   },
   {
     'num': '42',
-    'sanskrit': 'इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः | मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||',
-    'ahirani': 'Les sens sont inférieurs au mental, le mental à l’intellect, et l’âme est supérieure à tout.',
-    'meaning': 'The senses are inferior to the mind, the mind to the intellect, and the soul is superior to all.',
+    'sanskrit':
+        'इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः | मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||',
+    'French':
+        'Les sens sont inférieurs au mental, le mental à l’intellect, et l’âme est supérieure à tout.',
+    'meaning':
+        'The senses are inferior to the mind, the mind to the intellect, and the soul is superior to all.',
   },
   {
     'num': '43',
-    'sanskrit': 'एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना | जहि शत्रुं महाबाहो कामरूपं दुरासदम् ||',
-    'ahirani': 'En connaissant l’âme, maîtrise-toi et détruis ce puissant ennemi qu’est le désir.',
-    'meaning': 'Knowing the self, control yourself and destroy the powerful enemy called desire.',
+    'sanskrit':
+        'एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना | जहि शत्रुं महाबाहो कामरूपं दुरासदम् ||',
+    'French':
+        'En connaissant l’âme, maîtrise-toi et détruis ce puissant ennemi qu’est le désir.',
+    'meaning':
+        'Knowing the self, control yourself and destroy the powerful enemy called desire.',
   },
 ];

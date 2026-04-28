@@ -56,9 +56,10 @@ class _SplashScreenState extends State<SplashScreen>
       duration: const Duration(milliseconds: 1800),
     );
     _fadeAnim = CurvedAnimation(parent: _controller, curve: Curves.easeIn);
-    _scaleAnim = Tween<double>(begin: 0.7, end: 1.0).animate(
-      CurvedAnimation(parent: _controller, curve: Curves.easeOutBack),
-    );
+    _scaleAnim = Tween<double>(
+      begin: 0.7,
+      end: 1.0,
+    ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeOutBack));
     _controller.forward();
 
     Future.delayed(const Duration(seconds: 3), () {
@@ -91,10 +92,7 @@ class _SplashScreenState extends State<SplashScreen>
           gradient: RadialGradient(
             center: Alignment.center,
             radius: 1.2,
-            colors: [
-              Color(0xFF3D1500),
-              Color(0xFF1A0A00),
-            ],
+            colors: [Color(0xFF3D1500), Color(0xFF1A0A00)],
           ),
         ),
         child: Center(
@@ -254,126 +252,126 @@ class ChaptersPage extends StatelessWidget {
     {
       'num': '१',
       'title': 'अर्जुन विषाद योग',
-      'ahirani': 'अर्जुनाचो दुःख',
+      'French': 'अर्जुनाचो दुःख',
       'verses': '४७ श्लोक',
       'summary': 'कुरुक्षेत्राच्या रणांगणावर अर्जुनाचो मोह आणि विषाद',
     },
     {
       'num': '२',
       'title': 'सांख्य योग',
-      'ahirani': 'ज्ञानाचो मार्ग',
+      'French': 'ज्ञानाचो मार्ग',
       'verses': '७२ श्लोक',
       'summary': 'आत्म्याचो अमरत्व आणि कर्तव्याचो ज्ञान',
     },
     {
       'num': '३',
       'title': 'कर्म योग',
-      'ahirani': 'कामाचो मार्ग',
+      'French': 'कामाचो मार्ग',
       'verses': '४३ श्लोक',
       'summary': 'निष्काम कर्माचो महत्त्व आणि यज्ञाचो भावना',
     },
     {
       'num': '४',
       'title': 'ज्ञान योग',
-      'ahirani': 'समजणाचो मार्ग',
+      'French': 'समजणाचो मार्ग',
       'verses': '४२ श्लोक',
       'summary': 'दिव्य ज्ञानाचो प्रकटीकरण आणि गुरुचो महत्त्व',
     },
     {
       'num': '५',
       'title': 'कर्म संन्यास योग',
-      'ahirani': 'त्यागाचो मार्ग',
+      'French': 'त्यागाचो मार्ग',
       'verses': '२९ श्लोक',
       'summary': 'कर्मसंन्यास आणि कर्मयोग यांचो तुलना',
     },
     {
       'num': '६',
       'title': 'ध्यान योग',
-      'ahirani': 'मनाचो शांती',
+      'French': 'मनाचो शांती',
       'verses': '४७ श्लोक',
       'summary': 'ध्यान साधना आणि मनाचो नियंत्रण',
     },
     {
       'num': '७',
       'title': 'ज्ञान विज्ञान योग',
-      'ahirani': 'परमेश्वराचो ओळख',
+      'French': 'परमेश्वराचो ओळख',
       'verses': '३० श्लोक',
       'summary': 'भगवंताचो स्वरूप आणि माया',
     },
     {
       'num': '८',
       'title': 'अक्षर ब्रह्म योग',
-      'ahirani': 'अनंताचो ज्ञान',
+      'French': 'अनंताचो ज्ञान',
       'verses': '२८ श्लोक',
       'summary': 'परमब्रह्म आणि मृत्यूनंतरचो गती',
     },
     {
       'num': '९',
       'title': 'राज विद्या योग',
-      'ahirani': 'राजविद्या',
+      'French': 'राजविद्या',
       'verses': '३४ श्लोक',
       'summary': 'परम गुह्य ज्ञान आणि भक्तीचो महत्त्व',
     },
     {
       'num': '१०',
       'title': 'विभूति योग',
-      'ahirani': 'परमेश्वराची शक्ती',
+      'French': 'परमेश्वराची शक्ती',
       'verses': '४२ श्लोक',
       'summary': 'भगवंताची दिव्य विभूती आणि वैभव',
     },
     {
       'num': '११',
       'title': 'विश्वरूप दर्शन योग',
-      'ahirani': 'विश्वाचो रूप',
+      'French': 'विश्वाचो रूप',
       'verses': '५५ श्लोक',
       'summary': 'अर्जुनाला विश्वरूपाचो दर्शन',
     },
     {
       'num': '१२',
       'title': 'भक्ति योग',
-      'ahirani': 'प्रेमाचो मार्ग',
+      'French': 'प्रेमाचो मार्ग',
       'verses': '२० श्लोक',
       'summary': 'भक्तीचो श्रेष्ठता आणि भक्ताची लक्षणे',
     },
     {
       'num': '१३',
       'title': 'क्षेत्र क्षेत्रज्ञ विभाग योग',
-      'ahirani': 'शरीर आणि आत्मा',
+      'French': 'शरीर आणि आत्मा',
       'verses': '३५ श्लोक',
       'summary': 'शरीर, आत्मा आणि परमात्म्याचो ज्ञान',
     },
     {
       'num': '१४',
       'title': 'गुणत्रय विभाग योग',
-      'ahirani': 'तीन गुण',
+      'French': 'तीन गुण',
       'verses': '२७ श्लोक',
       'summary': 'सत्त्व, रज आणि तम गुणांचो विवेचन',
     },
     {
       'num': '१५',
       'title': 'पुरुषोत्तम योग',
-      'ahirani': 'सर्वश्रेष्ठ पुरुष',
+      'French': 'सर्वश्रेष्ठ पुरुष',
       'verses': '२० श्लोक',
       'summary': 'अश्वत्थाचो उदाहरण आणि परमपुरुष',
     },
     {
       'num': '१६',
       'title': 'दैवासुर संपद विभाग योग',
-      'ahirani': 'देवी आणि आसुरी गुण',
+      'French': 'देवी आणि आसुरी गुण',
       'verses': '२४ श्लोक',
       'summary': 'दैवी आणि आसुरी संपदेचो भेद',
     },
     {
       'num': '१७',
       'title': 'श्रद्धात्रय विभाग योग',
-      'ahirani': 'श्रद्धेचे तीन प्रकार',
+      'French': 'श्रद्धेचे तीन प्रकार',
       'verses': '२८ श्लोक',
       'summary': 'तीन प्रकारची श्रद्धा, आहार आणि यज्ञ',
     },
     {
       'num': '१८',
       'title': 'मोक्ष संन्यास योग',
-      'ahirani': 'मुक्तीचो मार्ग',
+      'French': 'मुक्तीचो मार्ग',
       'verses': '७८ श्लोक',
       'summary': 'संन्यास, मोक्ष आणि भगवद्गीतेचो सार',
     },
@@ -414,10 +412,7 @@ class ChaptersPage extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  colors: [
-                    Color(0xFF3D1500),
-                    Color(0xFF1A0A00),
-                  ],
+                  colors: [Color(0xFF3D1500), Color(0xFF1A0A00)],
                 ),
               ),
               child: Stack(
@@ -500,29 +495,26 @@ class ChaptersPage extends StatelessWidget {
         SliverPadding(
           padding: const EdgeInsets.all(16),
           sliver: SliverList(
-            delegate: SliverChildBuilderDelegate(
-              (context, index) {
-                final chapter = chapters[index];
-                final color = chapterColors[index % chapterColors.length];
-                return _ChapterCard(
-                  chapter: chapter,
-                  color: color,
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => ChapterDetailScreen(
-                          chapterNum: index + 1,
-                          chapter: chapter,
-                          color: color,
-                        ),
+            delegate: SliverChildBuilderDelegate((context, index) {
+              final chapter = chapters[index];
+              final color = chapterColors[index % chapterColors.length];
+              return _ChapterCard(
+                chapter: chapter,
+                color: color,
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => ChapterDetailScreen(
+                        chapterNum: index + 1,
+                        chapter: chapter,
+                        color: color,
                       ),
-                    );
-                  },
-                );
-              },
-              childCount: chapters.length,
-            ),
+                    ),
+                  );
+                },
+              );
+            }, childCount: chapters.length),
           ),
         ),
       ],
@@ -557,15 +549,9 @@ class _ChapterCard extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
-                colors: [
-                  color.withOpacity(0.15),
-                  const Color(0xFF2D1200),
-                ],
+                colors: [color.withOpacity(0.15), const Color(0xFF2D1200)],
               ),
-              border: Border.all(
-                color: color.withOpacity(0.3),
-                width: 1,
-              ),
+              border: Border.all(color: color.withOpacity(0.3), width: 1),
             ),
             child: Row(
               children: [
@@ -576,10 +562,7 @@ class _ChapterCard extends StatelessWidget {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     gradient: RadialGradient(
-                      colors: [
-                        color.withOpacity(0.9),
-                        color.withOpacity(0.4),
-                      ],
+                      colors: [color.withOpacity(0.9), color.withOpacity(0.4)],
                     ),
                     boxShadow: [
                       BoxShadow(
@@ -615,7 +598,7 @@ class _ChapterCard extends StatelessWidget {
                       ),
                       const SizedBox(height: 3),
                       Text(
-                        chapter['ahirani']!,
+                        chapter['French']!,
                         style: TextStyle(
                           color: color,
                           fontSize: 13,
@@ -679,27 +662,36 @@ class ChapterDetailScreen extends StatelessWidget {
   static const List<Map<String, String>> sampleVerses = [
     {
       'num': '१',
-      'sanskrit': 'धृतराष्ट्र उवाच | धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |',
-      'ahirani': 'धृतराष्ट्र म्हनना: धर्माच्या कुरुक्षेत्रात एकट्या आलेल्या माझ्या आणि पांडूच्या पोरास्नी काय केलं?',
-      'meaning': 'धर्मभूमी कुरुक्षेत्रावर जमलेल्या माझ्या आणि पांडूच्या पुत्रांनी काय केले?',
+      'sanskrit':
+          'धृतराष्ट्र उवाच | धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |',
+      'French':
+          'धृतराष्ट्र म्हनना: धर्माच्या कुरुक्षेत्रात एकट्या आलेल्या माझ्या आणि पांडूच्या पोरास्नी काय केलं?',
+      'meaning':
+          'धर्मभूमी कुरुक्षेत्रावर जमलेल्या माझ्या आणि पांडूच्या पुत्रांनी काय केले?',
     },
     {
       'num': '२',
       'sanskrit': 'सञ्जय उवाच | दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा |',
-      'ahirani': 'संजय म्हनना: त्या वेळी दुर्योधनान पांडवांची सेना व्यूहबद्ध दिसली...',
-      'meaning': 'संजय म्हणाला: त्यावेळी दुर्योधनाने पांडवांची सेना व्यूहाकाराने उभी असलेली पाहिली.',
+      'French':
+          'संजय म्हनना: त्या वेळी दुर्योधनान पांडवांची सेना व्यूहबद्ध दिसली...',
+      'meaning':
+          'संजय म्हणाला: त्यावेळी दुर्योधनाने पांडवांची सेना व्यूहाकाराने उभी असलेली पाहिली.',
     },
     {
       'num': '३',
       'sanskrit': 'पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् |',
-      'ahirani': 'आचार्य, पांडूच्या पोरांची ही मोठी सेना बघा जी द्रुपदाच्या हुशार पोरान सजवली हे।',
-      'meaning': 'हे आचार्य! पांडुपुत्रांची ही महान सेना पाहा, जी द्रुपदाच्या बुद्धिमान पुत्राने सजवली आहे.',
+      'French':
+          'आचार्य, पांडूच्या पोरांची ही मोठी सेना बघा जी द्रुपदाच्या हुशार पोरान सजवली हे।',
+      'meaning':
+          'हे आचार्य! पांडुपुत्रांची ही महान सेना पाहा, जी द्रुपदाच्या बुद्धिमान पुत्राने सजवली आहे.',
     },
     {
       'num': '४',
       'sanskrit': 'अत्र शूरा महेष्वासा भीमार्जुनसमा युधि |',
-      'ahirani': 'इथे मोठे वीर आहेत, महान धनुर्धर आहेत जे युद्धात भीम-अर्जुनाजोगे हाय।',
-      'meaning': 'येथे महान धनुर्धारी शूरवीर आहेत जे युद्धात भीम आणि अर्जुनाशी समान आहेत.',
+      'French':
+          'इथे मोठे वीर आहेत, महान धनुर्धर आहेत जे युद्धात भीम-अर्जुनाजोगे हाय।',
+      'meaning':
+          'येथे महान धनुर्धारी शूरवीर आहेत जे युद्धात भीम आणि अर्जुनाशी समान आहेत.',
     },
   ];
 
@@ -719,11 +711,17 @@ class ChapterDetailScreen extends StatelessWidget {
             ),
             actions: [
               IconButton(
-                icon: const Icon(Icons.bookmark_border, color: Color(0xFFFFD700)),
+                icon: const Icon(
+                  Icons.bookmark_border,
+                  color: Color(0xFFFFD700),
+                ),
                 onPressed: () {},
               ),
               IconButton(
-                icon: const Icon(Icons.share_outlined, color: Color(0xFFFFD700)),
+                icon: const Icon(
+                  Icons.share_outlined,
+                  color: Color(0xFFFFD700),
+                ),
                 onPressed: () {},
               ),
             ],
@@ -733,10 +731,7 @@ class ChapterDetailScreen extends StatelessWidget {
                   gradient: LinearGradient(
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
-                    colors: [
-                      color.withOpacity(0.4),
-                      const Color(0xFF1A0A00),
-                    ],
+                    colors: [color.withOpacity(0.4), const Color(0xFF1A0A00)],
                   ),
                 ),
                 child: Center(
@@ -765,7 +760,7 @@ class ChapterDetailScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          chapter['ahirani']!,
+                          chapter['French']!,
                           style: TextStyle(
                             color: color.withOpacity(0.9),
                             fontSize: 15,
@@ -855,10 +850,7 @@ class _VerseCard extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(14),
             color: const Color(0xFF2D1200),
-            border: Border.all(
-              color: color.withOpacity(0.2),
-              width: 1,
-            ),
+            border: Border.all(color: color.withOpacity(0.2), width: 1),
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -887,7 +879,11 @@ class _VerseCard extends StatelessWidget {
                   const Spacer(),
                   Icon(Icons.play_circle_outline, color: color, size: 20),
                   const SizedBox(width: 8),
-                  Icon(Icons.favorite_border, color: color.withOpacity(0.6), size: 20),
+                  Icon(
+                    Icons.favorite_border,
+                    color: color.withOpacity(0.6),
+                    size: 20,
+                  ),
                 ],
               ),
               const SizedBox(height: 12),
@@ -906,23 +902,23 @@ class _VerseCard extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 6,
+                      vertical: 2,
+                    ),
                     decoration: BoxDecoration(
                       color: const Color(0xFF3D1500),
                       borderRadius: BorderRadius.circular(4),
                     ),
                     child: const Text(
                       'अहिराणी',
-                      style: TextStyle(
-                        color: Color(0xFFFF9966),
-                        fontSize: 10,
-                      ),
+                      style: TextStyle(color: Color(0xFFFF9966), fontSize: 10),
                     ),
                   ),
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      verse['ahirani']!,
+                      verse['French']!,
                       style: const TextStyle(
                         color: Color(0xFFDDC08A),
                         fontSize: 13,
@@ -980,10 +976,7 @@ class _VerseDetailScreenState extends State<VerseDetailScreen> {
         ),
         title: Text(
           'अध्याय ${widget.chapterNum} • श्लोक ${widget.verseNum}',
-          style: const TextStyle(
-            color: Color(0xFFFFD700),
-            fontSize: 16,
-          ),
+          style: const TextStyle(color: Color(0xFFFFD700), fontSize: 16),
         ),
         actions: [
           IconButton(
@@ -1026,10 +1019,7 @@ class _VerseDetailScreenState extends State<VerseDetailScreen> {
                 children: [
                   Text(
                     'ॐ',
-                    style: TextStyle(
-                      fontSize: 32,
-                      color: widget.color,
-                    ),
+                    style: TextStyle(fontSize: 32, color: widget.color),
                   ),
                   const SizedBox(height: 16),
                   Text(
@@ -1053,9 +1043,7 @@ class _VerseDetailScreenState extends State<VerseDetailScreen> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
                 color: const Color(0xFF2D1200),
-                border: Border.all(
-                  color: widget.color.withOpacity(0.3),
-                ),
+                border: Border.all(color: widget.color.withOpacity(0.3)),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -1068,10 +1056,7 @@ class _VerseDetailScreenState extends State<VerseDetailScreen> {
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       gradient: RadialGradient(
-                        colors: [
-                          widget.color,
-                          widget.color.withOpacity(0.6),
-                        ],
+                        colors: [widget.color, widget.color.withOpacity(0.6)],
                       ),
                       boxShadow: [
                         BoxShadow(
@@ -1094,11 +1079,11 @@ class _VerseDetailScreenState extends State<VerseDetailScreen> {
             ),
             const SizedBox(height: 24),
 
-            // Ahirani translation
+            // French translation
             _buildSection(
               title: 'अहिराणी अनुवाद',
               icon: '🗣️',
-              content: widget.verse['ahirani']!,
+              content: widget.verse['French']!,
               color: widget.color,
               isActive: _showTransliteration,
               onToggle: () =>
@@ -1253,11 +1238,17 @@ class DailyVersePage extends StatelessWidget {
             backgroundColor: const Color(0xFF2D1200),
             title: const Text(
               'आजचो श्लोक',
-              style: TextStyle(color: Color(0xFFFFD700), fontWeight: FontWeight.bold),
+              style: TextStyle(
+                color: Color(0xFFFFD700),
+                fontWeight: FontWeight.bold,
+              ),
             ),
             actions: [
               IconButton(
-                icon: const Icon(Icons.notifications_outlined, color: Color(0xFFFFD700)),
+                icon: const Icon(
+                  Icons.notifications_outlined,
+                  color: Color(0xFFFFD700),
+                ),
                 onPressed: () {},
               ),
             ],
@@ -1272,20 +1263,32 @@ class DailyVersePage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 6,
+                        ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           color: const Color(0xFF3D1500),
-                          border: Border.all(color: const Color(0xFFFF6B00).withOpacity(0.4)),
+                          border: Border.all(
+                            color: const Color(0xFFFF6B00).withOpacity(0.4),
+                          ),
                         ),
                         child: const Row(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            Icon(Icons.wb_sunny_rounded, color: Color(0xFFFFD700), size: 16),
+                            Icon(
+                              Icons.wb_sunny_rounded,
+                              color: Color(0xFFFFD700),
+                              size: 16,
+                            ),
                             SizedBox(width: 6),
                             Text(
                               'आज, सोमवार',
-                              style: TextStyle(color: Color(0xFFFFD700), fontSize: 13),
+                              style: TextStyle(
+                                color: Color(0xFFFFD700),
+                                fontSize: 13,
+                              ),
                             ),
                           ],
                         ),
@@ -1376,15 +1379,23 @@ class DailyVersePage extends StatelessWidget {
                         ),
                         const SizedBox(height: 16),
                         Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 10,
+                            vertical: 4,
+                          ),
                           decoration: BoxDecoration(
                             color: const Color(0xFFFF6B00).withOpacity(0.15),
                             borderRadius: BorderRadius.circular(8),
-                            border: Border.all(color: const Color(0xFFFF6B00).withOpacity(0.3)),
+                            border: Border.all(
+                              color: const Color(0xFFFF6B00).withOpacity(0.3),
+                            ),
                           ),
                           child: const Text(
                             '🗣️ अहिराणी अनुवाद',
-                            style: TextStyle(color: Color(0xFFFF9966), fontSize: 11),
+                            style: TextStyle(
+                              color: Color(0xFFFF9966),
+                              fontSize: 11,
+                            ),
                           ),
                         ),
                       ],
@@ -1470,7 +1481,9 @@ class DailyVersePage extends StatelessWidget {
                                             : null,
                                       ),
                                       child: Icon(
-                                        e.key < 5 ? Icons.check : Icons.circle_outlined,
+                                        e.key < 5
+                                            ? Icons.check
+                                            : Icons.circle_outlined,
                                         size: 16,
                                         color: e.key < 5
                                             ? Colors.white
@@ -1536,7 +1549,11 @@ class _ActionBtn extends StatelessWidget {
               const SizedBox(height: 4),
               Text(
                 label,
-                style: TextStyle(color: color, fontSize: 11, fontWeight: FontWeight.w600),
+                style: TextStyle(
+                  color: color,
+                  fontSize: 11,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ],
           ),
@@ -1560,7 +1577,10 @@ class FavoritesPage extends StatelessWidget {
         backgroundColor: const Color(0xFF2D1200),
         title: const Text(
           'आवडते श्लोक',
-          style: TextStyle(color: Color(0xFFFFD700), fontWeight: FontWeight.bold),
+          style: TextStyle(
+            color: Color(0xFFFFD700),
+            fontWeight: FontWeight.bold,
+          ),
         ),
         actions: [
           IconButton(
@@ -1587,9 +1607,7 @@ class FavoritesPage extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
                 color: const Color(0xFF2D1200),
-                border: Border.all(
-                  color: colors[index].withOpacity(0.3),
-                ),
+                border: Border.all(color: colors[index].withOpacity(0.3)),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -1597,11 +1615,16 @@ class FavoritesPage extends StatelessWidget {
                   Row(
                     children: [
                       Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                          vertical: 4,
+                        ),
                         decoration: BoxDecoration(
                           color: colors[index].withOpacity(0.15),
                           borderRadius: BorderRadius.circular(20),
-                          border: Border.all(color: colors[index].withOpacity(0.4)),
+                          border: Border.all(
+                            color: colors[index].withOpacity(0.4),
+                          ),
                         ),
                         child: Text(
                           'अध्याय ${index + 2} • श्लोक ${index * 3 + 1}',
@@ -1624,7 +1647,7 @@ class FavoritesPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    _sampleAhiraniVerses[index % _sampleAhiraniVerses.length],
+                    _sampleFrenchVerses[index % _sampleFrenchVerses.length],
                     style: const TextStyle(
                       color: Color(0xFFAA8855),
                       fontSize: 12,
@@ -1650,7 +1673,7 @@ class FavoritesPage extends StatelessWidget {
     'मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये।',
   ];
 
-  static const List<String> _sampleAhiraniVerses = [
+  static const List<String> _sampleFrenchVerses = [
     'तू फक्त काम कर, फळाचो विचार करू नको।',
     'जव जव धर्माचो ऱ्हास होतो तव तव मी अवतार घेतो।',
     'श्रद्धा असणाऱ्याला ज्ञान मिळते।',
@@ -1681,7 +1704,10 @@ class _SearchPageState extends State<SearchPage> {
         backgroundColor: const Color(0xFF2D1200),
         title: const Text(
           'शोधा',
-          style: TextStyle(color: Color(0xFFFFD700), fontWeight: FontWeight.bold),
+          style: TextStyle(
+            color: Color(0xFFFFD700),
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
       body: Padding(
@@ -1704,10 +1730,16 @@ class _SearchPageState extends State<SearchPage> {
                 decoration: InputDecoration(
                   hintText: 'श्लोक, अध्याय, शब्द शोधा...',
                   hintStyle: const TextStyle(color: Color(0xFF8B5E3C)),
-                  prefixIcon: const Icon(Icons.search, color: Color(0xFFFF6B00)),
+                  prefixIcon: const Icon(
+                    Icons.search,
+                    color: Color(0xFFFF6B00),
+                  ),
                   suffixIcon: _hasQuery
                       ? IconButton(
-                          icon: const Icon(Icons.clear, color: Color(0xFF8B5E3C)),
+                          icon: const Icon(
+                            Icons.clear,
+                            color: Color(0xFF8B5E3C),
+                          ),
                           onPressed: () {
                             _controller.clear();
                             setState(() => _hasQuery = false);
@@ -1737,40 +1769,48 @@ class _SearchPageState extends State<SearchPage> {
               Wrap(
                 spacing: 8,
                 runSpacing: 8,
-                children: [
-                  'कर्मयोग',
-                  'भक्ती',
-                  'ज्ञान',
-                  'मोक्ष',
-                  'धर्म',
-                  'आत्मा',
-                  'ध्यान',
-                  'योग',
-                ].map(
-                  (tag) => GestureDetector(
-                    onTap: () {
-                      _controller.text = tag;
-                      setState(() => _hasQuery = true);
-                    },
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        color: const Color(0xFF3D1500),
-                        border: Border.all(
-                          color: const Color(0xFFFF6B00).withOpacity(0.3),
-                        ),
-                      ),
-                      child: Text(
-                        tag,
-                        style: const TextStyle(
-                          color: Color(0xFFFFAA55),
-                          fontSize: 13,
-                        ),
-                      ),
-                    ),
-                  ),
-                ).toList(),
+                children:
+                    [
+                          'कर्मयोग',
+                          'भक्ती',
+                          'ज्ञान',
+                          'मोक्ष',
+                          'धर्म',
+                          'आत्मा',
+                          'ध्यान',
+                          'योग',
+                        ]
+                        .map(
+                          (tag) => GestureDetector(
+                            onTap: () {
+                              _controller.text = tag;
+                              setState(() => _hasQuery = true);
+                            },
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 14,
+                                vertical: 8,
+                              ),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(20),
+                                color: const Color(0xFF3D1500),
+                                border: Border.all(
+                                  color: const Color(
+                                    0xFFFF6B00,
+                                  ).withOpacity(0.3),
+                                ),
+                              ),
+                              child: Text(
+                                tag,
+                                style: const TextStyle(
+                                  color: Color(0xFFFFAA55),
+                                  fontSize: 13,
+                                ),
+                              ),
+                            ),
+                          ),
+                        )
+                        .toList(),
               ),
             ] else ...[
               const Align(

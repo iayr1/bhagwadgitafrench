@@ -1,332 +1,401 @@
 const List<Map<String, String>> chapter11Verses = [
   {
     'num': '1',
-    'sanskrit': 'अर्जुन उवाच | मदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम् | यत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम ||',
-    'ahirani': 'Grâce à tes paroles profondes, mon illusion a disparu.',
-    'meaning': 'By your profound spiritual words, my delusion has been removed.',
+    'sanskrit':
+        'अर्जुन उवाच | मदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम् | यत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम ||',
+    'French': 'Grâce à tes paroles profondes, mon illusion a disparu.',
+    'meaning':
+        'By your profound spiritual words, my delusion has been removed.',
   },
   {
     'num': '2',
-    'sanskrit': 'भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया | त्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम् ||',
-    'ahirani': 'J’ai entendu de toi la création et la destruction, ainsi que ta grandeur éternelle.',
-    'meaning': 'I have heard from you about creation and dissolution and your eternal greatness.',
+    'sanskrit':
+        'भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया | त्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम् ||',
+    'French':
+        'J’ai entendu de toi la création et la destruction, ainsi que ta grandeur éternelle.',
+    'meaning':
+        'I have heard from you about creation and dissolution and your eternal greatness.',
   },
   {
     'num': '3',
-    'sanskrit': 'एवमेतद्यथात्थ त्वमात्मानं परमेश्वर | द्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम ||',
-    'ahirani': 'Tout ce que tu dis est vrai — je veux voir ta forme divine.',
+    'sanskrit':
+        'एवमेतद्यथात्थ त्वमात्मानं परमेश्वर | द्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम ||',
+    'French': 'Tout ce que tu dis est vrai — je veux voir ta forme divine.',
     'meaning': 'What you say is true; I wish to see your divine form.',
   },
   {
     'num': '4',
-    'sanskrit': 'मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो | योगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम् ||',
-    'ahirani': 'Si tu penses que je peux le voir, montre-moi ta forme éternelle.',
+    'sanskrit':
+        'मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो | योगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम् ||',
+    'French':
+        'Si tu penses que je peux le voir, montre-moi ta forme éternelle.',
     'meaning': 'If you think I can see it, show me your eternal form.',
   },
   {
     'num': '5',
-    'sanskrit': 'श्रीभगवानुवाच | पश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः | नानाविधानि दिव्यानि नानावर्णाकृतीनि च ||',
-    'ahirani': 'Regarde mes formes divines, nombreuses et variées.',
+    'sanskrit':
+        'श्रीभगवानुवाच | पश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः | नानाविधानि दिव्यानि नानावर्णाकृतीनि च ||',
+    'French': 'Regarde mes formes divines, nombreuses et variées.',
     'meaning': 'Behold My divine forms in hundreds and thousands.',
   },
   {
     'num': '6',
-    'sanskrit': 'पश्यादित्यान्वसून्रुद्रानश्विनौ मरुतस्तथा | बहून्यदृष्टपूर्वाणि पश्याश्चर्याणि भारत ||',
-    'ahirani': 'Vois les dieux et merveilles jamais vues auparavant.',
+    'sanskrit':
+        'पश्यादित्यान्वसून्रुद्रानश्विनौ मरुतस्तथा | बहून्यदृष्टपूर्वाणि पश्याश्चर्याणि भारत ||',
+    'French': 'Vois les dieux et merveilles jamais vues auparavant.',
     'meaning': 'See the gods and wonders never seen before.',
   },
   {
     'num': '7',
-    'sanskrit': 'इहैकस्थं जगत्कृत्स्नं पश्याद्य सचराचरम् | मम देहे गुडाकेश यच्चान्यद्द्रष्टुमिच्छसि ||',
-    'ahirani': 'Vois tout l’univers dans mon corps.',
+    'sanskrit':
+        'इहैकस्थं जगत्कृत्स्नं पश्याद्य सचराचरम् | मम देहे गुडाकेश यच्चान्यद्द्रष्टुमिच्छसि ||',
+    'French': 'Vois tout l’univers dans mon corps.',
     'meaning': 'See the entire universe within Me.',
   },
   {
     'num': '8',
-    'sanskrit': 'न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा | दिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम् ||',
-    'ahirani': 'Tes yeux ordinaires ne suffisent pas — je te donne une vision divine.',
+    'sanskrit':
+        'न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा | दिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम् ||',
+    'French':
+        'Tes yeux ordinaires ne suffisent pas — je te donne une vision divine.',
     'meaning': 'You cannot see Me with these eyes; I grant you divine vision.',
   },
   {
     'num': '9',
-    'sanskrit': 'सञ्जय उवाच | एवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः | दर्शयामास पार्थाय परमं रूपमैश्वरम् ||',
-    'ahirani': 'Krishna montre sa forme suprême à Arjuna.',
+    'sanskrit':
+        'सञ्जय उवाच | एवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः | दर्शयामास पार्थाय परमं रूपमैश्वरम् ||',
+    'French': 'Krishna montre sa forme suprême à Arjuna.',
     'meaning': 'Krishna reveals His supreme form to Arjuna.',
   },
   {
     'num': '10',
-    'sanskrit': 'अनेकवक्त्रनयनमनेकाद्भुतदर्शनम् | अनेकदिव्याभरणं दिव्यानेकोद्यतायुधम् ||',
-    'ahirani': 'Une forme avec de nombreux visages, yeux, armes et merveilles.',
+    'sanskrit':
+        'अनेकवक्त्रनयनमनेकाद्भुतदर्शनम् | अनेकदिव्याभरणं दिव्यानेकोद्यतायुधम् ||',
+    'French': 'Une forme avec de nombreux visages, yeux, armes et merveilles.',
     'meaning': 'A form with many faces, eyes, weapons, and wonders.',
   },
   {
     'num': '11',
-    'sanskrit': 'दिव्यमाल्याम्बरधरं दिव्यगन्धानुलेपनम् | सर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम् ||',
-    'ahirani': 'Ornée de fleurs, vêtements et parfums divins — infinie et merveilleuse.',
+    'sanskrit':
+        'दिव्यमाल्याम्बरधरं दिव्यगन्धानुलेपनम् | सर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम् ||',
+    'French':
+        'Ornée de fleurs, vêtements et parfums divins — infinie et merveilleuse.',
     'meaning': 'Adorned with divine garlands and infinite wonders.',
   },
   {
     'num': '12',
-    'sanskrit': 'दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता | यदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ||',
-    'ahirani': 'Comme mille soleils brillants à la fois.',
+    'sanskrit':
+        'दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता | यदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ||',
+    'French': 'Comme mille soleils brillants à la fois.',
     'meaning': 'Like the brilliance of a thousand suns.',
   },
   {
     'num': '13',
-    'sanskrit': 'तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा | अपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा ||',
-    'ahirani': 'Arjuna voit tout l’univers dans cette forme.',
+    'sanskrit':
+        'तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा | अपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा ||',
+    'French': 'Arjuna voit tout l’univers dans cette forme.',
     'meaning': 'Arjuna sees the entire universe within that form.',
   },
   {
     'num': '14',
-    'sanskrit': 'ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः | प्रणम्य शिरसा देवं कृताञ्जलिरभाषत ||',
-    'ahirani': 'Arjuna, émerveillé, s’incline et parle.',
+    'sanskrit':
+        'ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः | प्रणम्य शिरसा देवं कृताञ्जलिरभाषत ||',
+    'French': 'Arjuna, émerveillé, s’incline et parle.',
     'meaning': 'Amazed, Arjuna bows and speaks.',
   },
   {
     'num': '15',
-    'sanskrit': 'अर्जुन उवाच | पश्यामि देवांस्तव देव देहे सर्वांस्तथा भूतविशेषसङ्घान् | ब्रह्माणमीशं कमलासनस्थमृषींश्च सर्वानुरगांश्च दिव्यान् ||',
-    'ahirani': 'Je vois tous les dieux, Brahma, Shiva, les sages et serpents divins.',
+    'sanskrit':
+        'अर्जुन उवाच | पश्यामि देवांस्तव देव देहे सर्वांस्तथा भूतविशेषसङ्घान् | ब्रह्माणमीशं कमलासनस्थमृषींश्च सर्वानुरगांश्च दिव्यान् ||',
+    'French':
+        'Je vois tous les dieux, Brahma, Shiva, les sages et serpents divins.',
     'meaning': 'I see all gods, Brahma, Shiva, sages, and divine beings.',
   },
   {
     'num': '16',
-    'sanskrit': 'अनेकबाहूदरवक्त्रनेत्रं पश्यामि त्वां सर्वतोऽनन्तरूपम् | नान्तं न मध्यं न पुनस्तवादिं पश्यामि विश्वेश्वर विश्वरूप ||',
-    'ahirani': 'Ta forme infinie n’a ni début, ni milieu, ni fin.',
+    'sanskrit':
+        'अनेकबाहूदरवक्त्रनेत्रं पश्यामि त्वां सर्वतोऽनन्तरूपम् | नान्तं न मध्यं न पुनस्तवादिं पश्यामि विश्वेश्वर विश्वरूप ||',
+    'French': 'Ta forme infinie n’a ni début, ni milieu, ni fin.',
     'meaning': 'Your infinite form has no beginning, middle, or end.',
   },
   {
     'num': '17',
-    'sanskrit': 'किरीटिनं गदिनं चक्रिणं च तेजोराशिं सर्वतो दीप्तिमन्तम् | पश्यामि त्वां दुर्निरीक्ष्यं समन्ताद्दीप्तानलार्कद्युतिमप्रमेयम् ||',
-    'ahirani': 'Rayonnant comme le soleil et le feu — impossible à regarder.',
+    'sanskrit':
+        'किरीटिनं गदिनं चक्रिणं च तेजोराशिं सर्वतो दीप्तिमन्तम् | पश्यामि त्वां दुर्निरीक्ष्यं समन्ताद्दीप्तानलार्कद्युतिमप्रमेयम् ||',
+    'French': 'Rayonnant comme le soleil et le feu — impossible à regarder.',
     'meaning': 'Radiant like fire and sun, impossible to behold.',
   },
   {
     'num': '18',
-    'sanskrit': 'त्वमक्षरं परमं वेदितव्यं त्वमस्य विश्वस्य परं निधानम् | त्वमव्ययः शाश्वतधर्मगोप्ता सनातनस्त्वं पुरुषो मतो मे ||',
-    'ahirani': 'Tu es l’éternel, le refuge et le protecteur du dharma.',
+    'sanskrit':
+        'त्वमक्षरं परमं वेदितव्यं त्वमस्य विश्वस्य परं निधानम् | त्वमव्ययः शाश्वतधर्मगोप्ता सनातनस्त्वं पुरुषो मतो मे ||',
+    'French': 'Tu es l’éternel, le refuge et le protecteur du dharma.',
     'meaning': 'You are the eternal refuge and protector of dharma.',
   },
   {
     'num': '19',
-    'sanskrit': 'अनादिमध्यान्तमनन्तवीर्यमनन्तबाहुं शशिसूर्यनेत्रम् | पश्यामि त्वां दीप्तहुताशवक्त्रं स्वतेजसा विश्वमिदं तपन्तम् ||',
-    'ahirani': 'Sans début ni fin, tu illumines tout l’univers.',
+    'sanskrit':
+        'अनादिमध्यान्तमनन्तवीर्यमनन्तबाहुं शशिसूर्यनेत्रम् | पश्यामि त्वां दीप्तहुताशवक्त्रं स्वतेजसा विश्वमिदं तपन्तम् ||',
+    'French': 'Sans début ni fin, tu illumines tout l’univers.',
     'meaning': 'Without beginning or end, you illuminate the universe.',
   },
   {
     'num': '20',
-    'sanskrit': 'द्यावापृथिव्योरिदमन्तरं हि व्याप्तं त्वयैकेन दिशश्च सर्वाः | दृष्ट्वाद्भुतं रूपमुग्रं तवेदं लोकत्रयं प्रव्यथितं महात्मन् ||',
-    'ahirani': 'Tout est rempli par toi — les mondes sont effrayés.',
+    'sanskrit':
+        'द्यावापृथिव्योरिदमन्तरं हि व्याप्तं त्वयैकेन दिशश्च सर्वाः | दृष्ट्वाद्भुतं रूपमुग्रं तवेदं लोकत्रयं प्रव्यथितं महात्मन् ||',
+    'French': 'Tout est rempli par toi — les mondes sont effrayés.',
     'meaning': 'You fill all space; the worlds tremble in fear.',
   },
   {
     'num': '21',
-    'sanskrit': 'अमी हि त्वां सुरसङ्घा विशन्ति केचिद्भीताः प्राञ्जलयो गृणन्ति | स्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घाः स्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः ||',
-    'ahirani': 'Les dieux te louent avec respect et peur.',
+    'sanskrit':
+        'अमी हि त्वां सुरसङ्घा विशन्ति केचिद्भीताः प्राञ्जलयो गृणन्ति | स्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घाः स्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः ||',
+    'French': 'Les dieux te louent avec respect et peur.',
     'meaning': 'The gods praise You with devotion and fear.',
   },
   {
     'num': '22',
-    'sanskrit': 'रुद्रादित्या वसवो ये च साध्या विश्वेऽश्विनौ मरुतश्चोष्मपाश्च | गन्धर्वयक्षासुरसिद्धसङ्घा वीक्षन्ते त्वां विस्मिताश्चैव सर्वे ||',
-    'ahirani': 'Tous les êtres divins te regardent avec émerveillement.',
+    'sanskrit':
+        'रुद्रादित्या वसवो ये च साध्या विश्वेऽश्विनौ मरुतश्चोष्मपाश्च | गन्धर्वयक्षासुरसिद्धसङ्घा वीक्षन्ते त्वां विस्मिताश्चैव सर्वे ||',
+    'French': 'Tous les êtres divins te regardent avec émerveillement.',
     'meaning': 'All celestial beings gaze at You in wonder.',
   },
   {
     'num': '23',
-    'sanskrit': 'रूपं महत्ते बहुवक्त्रनेत्रं महाबाहो बहुबाहूरुपादम् | बहूदरं बहुदंष्ट्राकरालं दृष्ट्वा लोकाः प्रव्यथितास्तथाहम् ||',
-    'ahirani': 'Ta forme effrayante terrifie tous.',
+    'sanskrit':
+        'रूपं महत्ते बहुवक्त्रनेत्रं महाबाहो बहुबाहूरुपादम् | बहूदरं बहुदंष्ट्राकरालं दृष्ट्वा लोकाः प्रव्यथितास्तथाहम् ||',
+    'French': 'Ta forme effrayante terrifie tous.',
     'meaning': 'Your terrifying form frightens all.',
   },
   {
     'num': '24',
-    'sanskrit': 'नभःस्पृशं दीप्तमनेकवर्णं व्यात्ताननं दीप्तविशालनेत्रम् | दृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा धृतिं न विन्दामि शमं च विष्णो ||',
-    'ahirani': 'Ton éclat immense me trouble profondément.',
+    'sanskrit':
+        'नभःस्पृशं दीप्तमनेकवर्णं व्यात्ताननं दीप्तविशालनेत्रम् | दृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा धृतिं न विन्दामि शमं च विष्णो ||',
+    'French': 'Ton éclat immense me trouble profondément.',
     'meaning': 'Your vast brilliance disturbs my heart.',
   },
   {
     'num': '25',
-    'sanskrit': 'दंष्ट्राकरालानि च ते मुखानि दृष्ट्वैव कालानलसन्निभानि | दिशो न जाने न लभे च शर्म प्रसीद देवेश जगन्निवास ||',
-    'ahirani': 'Je suis perdu et effrayé — sois miséricordieux.',
+    'sanskrit':
+        'दंष्ट्राकरालानि च ते मुखानि दृष्ट्वैव कालानलसन्निभानि | दिशो न जाने न लभे च शर्म प्रसीद देवेश जगन्निवास ||',
+    'French': 'Je suis perdu et effrayé — sois miséricordieux.',
     'meaning': 'I am lost and frightened; please be gracious.',
   },
   {
     'num': '26',
-    'sanskrit': 'अमी च त्वां धृतराष्ट्रस्य पुत्राः सर्वे सहैवावनिपालसङ्घैः | भीष्मो द्रोणः सूतपुत्रस्तथासौ सहास्मदीयैरपि योधमुख्यैः ||',
-    'ahirani': 'Tous les guerriers entrent en toi — princes, rois, Bhishma, Drona et Karna.',
-    'meaning': 'All warriors enter You — princes, kings, Bhishma, Drona, and Karna.',
+    'sanskrit':
+        'अमी च त्वां धृतराष्ट्रस्य पुत्राः सर्वे सहैवावनिपालसङ्घैः | भीष्मो द्रोणः सूतपुत्रस्तथासौ सहास्मदीयैरपि योधमुख्यैः ||',
+    'French':
+        'Tous les guerriers entrent en toi — princes, rois, Bhishma, Drona et Karna.',
+    'meaning':
+        'All warriors enter You — princes, kings, Bhishma, Drona, and Karna.',
   },
   {
     'num': '27',
-    'sanskrit': 'वक्त्राणि ते त्वरमाणा विशन्ति दंष्ट्राकरालानि भयानकानि | केचिद्विलग्ना दशनान्तरेषु सन्दृश्यन्ते चूर्णितैरुत्तमाङ्गैः ||',
-    'ahirani': 'Ils se précipitent dans tes bouches terribles — certains écrasés entre tes dents.',
+    'sanskrit':
+        'वक्त्राणि ते त्वरमाणा विशन्ति दंष्ट्राकरालानि भयानकानि | केचिद्विलग्ना दशनान्तरेषु सन्दृश्यन्ते चूर्णितैरुत्तमाङ्गैः ||',
+    'French':
+        'Ils se précipitent dans tes bouches terribles — certains écrasés entre tes dents.',
     'meaning': 'They rush into Your fearful mouths, crushed between teeth.',
   },
   {
     'num': '28',
-    'sanskrit': 'यथा नदीनां बहवोऽम्बुवेगाः समुद्रमेवाभिमुखा द्रवन्ति | तथा तवामी नरलोकवीरा विशन्ति वक्त्राण्यभिविज्वलन्ति ||',
-    'ahirani': 'Comme les rivières vers la mer, les guerriers entrent en toi.',
+    'sanskrit':
+        'यथा नदीनां बहवोऽम्बुवेगाः समुद्रमेवाभिमुखा द्रवन्ति | तथा तवामी नरलोकवीरा विशन्ति वक्त्राण्यभिविज्वलन्ति ||',
+    'French': 'Comme les rivières vers la mer, les guerriers entrent en toi.',
     'meaning': 'Like rivers rushing to the ocean, warriors enter You.',
   },
   {
     'num': '29',
-    'sanskrit': 'यथा प्रदीप्तं ज्वलनं पतङ्गा विशन्ति नाशाय समृद्धवेगाः | तथैव नाशाय विशन्ति लोकास्तवापि वक्त्राणि समृद्धवेगाः ||',
-    'ahirani': 'Comme les insectes dans le feu, ils courent vers leur destruction.',
+    'sanskrit':
+        'यथा प्रदीप्तं ज्वलनं पतङ्गा विशन्ति नाशाय समृद्धवेगाः | तथैव नाशाय विशन्ति लोकास्तवापि वक्त्राणि समृद्धवेगाः ||',
+    'French':
+        'Comme les insectes dans le feu, ils courent vers leur destruction.',
     'meaning': 'Like moths to fire, they rush to destruction.',
   },
   {
     'num': '30',
-    'sanskrit': 'लेलिह्यसे ग्रसमानः समन्ताद्लोकान्समग्रान्वदनैर्ज्वलद्भिः | तेजोभिरापूर्य जगत्समग्रं भासस्तवोग्राः प्रतपन्ति विष्णो ||',
-    'ahirani': 'Tu dévores tout avec ton feu brillant — ton énergie remplit le monde.',
-    'meaning': 'You devour all with blazing mouths; Your energy fills the universe.',
+    'sanskrit':
+        'लेलिह्यसे ग्रसमानः समन्ताद्लोकान्समग्रान्वदनैर्ज्वलद्भिः | तेजोभिरापूर्य जगत्समग्रं भासस्तवोग्राः प्रतपन्ति विष्णो ||',
+    'French':
+        'Tu dévores tout avec ton feu brillant — ton énergie remplit le monde.',
+    'meaning':
+        'You devour all with blazing mouths; Your energy fills the universe.',
   },
   {
     'num': '31',
-    'sanskrit': 'आख्याहि मे को भवानुग्ररूपो नमोऽस्तु ते देववर प्रसीद | विज्ञातुमिच्छामि भवन्तमाद्यं न हि प्रजानामि तव प्रवृत्तिम् ||',
-    'ahirani': 'Qui es-tu dans cette forme terrible ? Dis-moi — sois miséricordieux.',
+    'sanskrit':
+        'आख्याहि मे को भवानुग्ररूपो नमोऽस्तु ते देववर प्रसीद | विज्ञातुमिच्छामि भवन्तमाद्यं न हि प्रजानामि तव प्रवृत्तिम् ||',
+    'French':
+        'Qui es-tu dans cette forme terrible ? Dis-moi — sois miséricordieux.',
     'meaning': 'Who are You in this fierce form? Please tell me.',
   },
   {
     'num': '32',
-    'sanskrit': 'श्रीभगवानुवाच | कालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्तः | ऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः ||',
-    'ahirani': 'Je suis le Temps, destructeur du monde.',
+    'sanskrit':
+        'श्रीभगवानुवाच | कालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्तः | ऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः ||',
+    'French': 'Je suis le Temps, destructeur du monde.',
     'meaning': 'I am Time, the destroyer of worlds.',
   },
   {
     'num': '33',
-    'sanskrit': 'तस्मात्त्वमुत्तिष्ठ यशो लभस्व जित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम् | मयैवैते निहताः पूर्वमेव निमित्तमात्रं भव सव्यसाचिन् ||',
-    'ahirani': 'Lève-toi et combat — tu n’es qu’un instrument.',
+    'sanskrit':
+        'तस्मात्त्वमुत्तिष्ठ यशो लभस्व जित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम् | मयैवैते निहताः पूर्वमेव निमित्तमात्रं भव सव्यसाचिन् ||',
+    'French': 'Lève-toi et combat — tu n’es qu’un instrument.',
     'meaning': 'Rise and fight; you are only an instrument.',
   },
   {
     'num': '34',
-    'sanskrit': 'द्रोणं च भीष्मं च जयद्रथं च कर्णं तथान्यानपि योधवीरान् | मया हतांस्त्वं जहि मा व्यथिष्ठा युध्यस्व जेतासि रणे सपत्नान् ||',
-    'ahirani': 'Ils sont déjà détruits — combats sans peur.',
+    'sanskrit':
+        'द्रोणं च भीष्मं च जयद्रथं च कर्णं तथान्यानपि योधवीरान् | मया हतांस्त्वं जहि मा व्यथिष्ठा युध्यस्व जेतासि रणे सपत्नान् ||',
+    'French': 'Ils sont déjà détruits — combats sans peur.',
     'meaning': 'They are already defeated; fight without fear.',
   },
   {
     'num': '35',
-    'sanskrit': 'सञ्जय उवाच | एतच्छ्रुत्वा वचनं केशवस्य कृताञ्जलिर्वेपमानः किरीटी | नमस्कृत्वा भूय एवाह कृष्णं सगद्गदं भीतभीतः प्रणम्य ||',
-    'ahirani': 'Arjuna, tremblant, parle avec respect.',
+    'sanskrit':
+        'सञ्जय उवाच | एतच्छ्रुत्वा वचनं केशवस्य कृताञ्जलिर्वेपमानः किरीटी | नमस्कृत्वा भूय एवाह कृष्णं सगद्गदं भीतभीतः प्रणम्य ||',
+    'French': 'Arjuna, tremblant, parle avec respect.',
     'meaning': 'Arjuna, trembling, speaks with reverence.',
   },
   {
     'num': '36',
-    'sanskrit': 'अर्जुन उवाच | स्थाने हृषीकेश तव प्रकीर्त्या जगत्प्रहृष्यत्यनुरज्यते च | रक्षांसि भीतानि दिशो द्रवन्ति सर्वे नमस्यन्ति च सिद्धसङ्घाः ||',
-    'ahirani': 'Ton nom réjouit le monde et effraie les démons.',
+    'sanskrit':
+        'अर्जुन उवाच | स्थाने हृषीकेश तव प्रकीर्त्या जगत्प्रहृष्यत्यनुरज्यते च | रक्षांसि भीतानि दिशो द्रवन्ति सर्वे नमस्यन्ति च सिद्धसङ्घाः ||',
+    'French': 'Ton nom réjouit le monde et effraie les démons.',
     'meaning': 'Your glory delights the world and frightens demons.',
   },
   {
     'num': '37',
-    'sanskrit': 'कस्माच्च ते न नमेरन्महात्मन्गरीयसे ब्रह्मणोऽप्यादिकर्त्रे | अनन्त देवेश जगन्निवास त्वमक्षरं सदसत्तत्परं यत् ||',
-    'ahirani': 'Tu es supérieur à tout — digne de tous les hommages.',
+    'sanskrit':
+        'कस्माच्च ते न नमेरन्महात्मन्गरीयसे ब्रह्मणोऽप्यादिकर्त्रे | अनन्त देवेश जगन्निवास त्वमक्षरं सदसत्तत्परं यत् ||',
+    'French': 'Tu es supérieur à tout — digne de tous les hommages.',
     'meaning': 'You are supreme and worthy of all reverence.',
   },
   {
     'num': '38',
-    'sanskrit': 'त्वमादिदेवः पुरुषः पुराणस्त्वमस्य विश्वस्य परं निधानम् | वेत्तासि वेद्यं च परं च धाम त्वया ततं विश्वमनन्तरूप ||',
-    'ahirani': 'Tu es l’origine, le refuge et le tout.',
+    'sanskrit':
+        'त्वमादिदेवः पुरुषः पुराणस्त्वमस्य विश्वस्य परं निधानम् | वेत्तासि वेद्यं च परं च धाम त्वया ततं विश्वमनन्तरूप ||',
+    'French': 'Tu es l’origine, le refuge et le tout.',
     'meaning': 'You are the origin, refuge, and all.',
   },
   {
     'num': '39',
-    'sanskrit': 'वायुर्यमोऽग्निर्वरुणः शशाङ्कः प्रजापतिस्त्वं प्रपितामहश्च | नमो नमस्तेऽस्तु सहस्रकृत्वः पुनश्च भूयोऽपि नमो नमस्ते ||',
-    'ahirani': 'Tu es tout — mille salutations à toi.',
+    'sanskrit':
+        'वायुर्यमोऽग्निर्वरुणः शशाङ्कः प्रजापतिस्त्वं प्रपितामहश्च | नमो नमस्तेऽस्तु सहस्रकृत्वः पुनश्च भूयोऽपि नमो नमस्ते ||',
+    'French': 'Tu es tout — mille salutations à toi.',
     'meaning': 'You are everything; I bow to You repeatedly.',
   },
   {
     'num': '40',
-    'sanskrit': 'नमः पुरस्तादथ पृष्ठतस्ते नमोऽस्तु ते सर्वत एव सर्व | अनन्तवीर्यामितविक्रमस्त्वं सर्वं समाप्नोषि ततोऽसि सर्वः ||',
-    'ahirani': 'Je te salue de toutes parts — tu es tout.',
+    'sanskrit':
+        'नमः पुरस्तादथ पृष्ठतस्ते नमोऽस्तु ते सर्वत एव सर्व | अनन्तवीर्यामितविक्रमस्त्वं सर्वं समाप्नोषि ततोऽसि सर्वः ||',
+    'French': 'Je te salue de toutes parts — tu es tout.',
     'meaning': 'I bow to You from all sides; You are everything.',
   },
   {
     'num': '41',
-    'sanskrit': 'सखेति मत्वा प्रसभं यदुक्तं हे कृष्ण हे यादव हे सखेति | अजानता महिमानं तवेदं मया प्रमादात्प्रणयेन वापि ||',
-    'ahirani': 'Pardonne-moi pour t’avoir traité comme un ami.',
+    'sanskrit':
+        'सखेति मत्वा प्रसभं यदुक्तं हे कृष्ण हे यादव हे सखेति | अजानता महिमानं तवेदं मया प्रमादात्प्रणयेन वापि ||',
+    'French': 'Pardonne-moi pour t’avoir traité comme un ami.',
     'meaning': 'Forgive me for addressing You casually as a friend.',
   },
   {
     'num': '42',
-    'sanskrit': 'यच्चावहासार्थमसत्कृतोऽसि विहारशय्यासनभोजनेषु | एकोऽथवाप्यच्युत तत्समक्षं तत्क्षामये त्वामहमप्रमेयम् ||',
-    'ahirani': 'Pardonne mes erreurs faites par ignorance ou plaisanterie.',
+    'sanskrit':
+        'यच्चावहासार्थमसत्कृतोऽसि विहारशय्यासनभोजनेषु | एकोऽथवाप्यच्युत तत्समक्षं तत्क्षामये त्वामहमप्रमेयम् ||',
+    'French': 'Pardonne mes erreurs faites par ignorance ou plaisanterie.',
     'meaning': 'Forgive any disrespect done in ignorance or jest.',
   },
   {
     'num': '43',
-    'sanskrit': 'पितासि लोकस्य चराचरस्य त्वमस्य पूज्यश्च गुरुर्गरीयान् | न त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो लोकत्रयेऽप्यप्रतिमप्रभाव ||',
-    'ahirani': 'Tu es le père et le maître de tout.',
+    'sanskrit':
+        'पितासि लोकस्य चराचरस्य त्वमस्य पूज्यश्च गुरुर्गरीयान् | न त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो लोकत्रयेऽप्यप्रतिमप्रभाव ||',
+    'French': 'Tu es le père et le maître de tout.',
     'meaning': 'You are the father and teacher of all.',
   },
   {
     'num': '44',
-    'sanskrit': 'तस्मात्प्रणम्य प्रणिधाय कायं प्रसादये त्वामहमीशमीड्यम् | पितेव पुत्रस्य सखेव सख्युः प्रियो प्रियायार्हसि देव सोढुम् ||',
-    'ahirani': 'Comme un père pardonne, pardonne-moi.',
+    'sanskrit':
+        'तस्मात्प्रणम्य प्रणिधाय कायं प्रसादये त्वामहमीशमीड्यम् | पितेव पुत्रस्य सखेव सख्युः प्रियो प्रियायार्हसि देव सोढुम् ||',
+    'French': 'Comme un père pardonne, pardonne-moi.',
     'meaning': 'Like a father forgives, please forgive me.',
   },
   {
     'num': '45',
-    'sanskrit': 'अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे | तदेव मे दर्शय देव रूपं प्रसीद देवेश जगन्निवास ||',
-    'ahirani': 'Montre-moi ta forme douce — je suis troublé.',
+    'sanskrit':
+        'अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे | तदेव मे दर्शय देव रूपं प्रसीद देवेश जगन्निवास ||',
+    'French': 'Montre-moi ta forme douce — je suis troublé.',
     'meaning': 'Show me Your gentle form; I am disturbed.',
   },
   {
     'num': '46',
-    'sanskrit': 'किरीटिनं गदिनं हस्तकृञ्च इच्छामि त्वां द्रष्टुमहं तथैव | तेनैव रूपेण चतुर्भुजेन सहस्रबाहो भव विश्वमूर्ते ||',
-    'ahirani': 'Je veux voir ta forme divine à quatre bras.',
+    'sanskrit':
+        'किरीटिनं गदिनं हस्तकृञ्च इच्छामि त्वां द्रष्टुमहं तथैव | तेनैव रूपेण चतुर्भुजेन सहस्रबाहो भव विश्वमूर्ते ||',
+    'French': 'Je veux voir ta forme divine à quatre bras.',
     'meaning': 'I wish to see Your four-armed form.',
   },
   {
     'num': '47',
-    'sanskrit': 'श्रीभगवानुवाच | मया प्रसन्नेन तवार्जुनेदं रूपं परं दर्शितमात्मयोगात् | तेजोमयं विश्वमनन्तमाद्यं यन्मे त्वदन्येन न दृष्टपूर्वम् ||',
-    'ahirani': 'Je t’ai montré cette forme par grâce divine.',
+    'sanskrit':
+        'श्रीभगवानुवाच | मया प्रसन्नेन तवार्जुनेदं रूपं परं दर्शितमात्मयोगात् | तेजोमयं विश्वमनन्तमाद्यं यन्मे त्वदन्येन न दृष्टपूर्वम् ||',
+    'French': 'Je t’ai montré cette forme par grâce divine.',
     'meaning': 'I revealed this form by My grace.',
   },
   {
     'num': '48',
-    'sanskrit': 'न वेदयज्ञाध्ययनैर्न दानैर्न च क्रियाभिर्न तपोभिरुग्रैः | एवंरूपः शक्य अहं नृलोके द्रष्टुं त्वदन्येन कुरुप्रवीर ||',
-    'ahirani': 'Ce n’est pas par rites ou austérité qu’on me voit ainsi.',
+    'sanskrit':
+        'न वेदयज्ञाध्ययनैर्न दानैर्न च क्रियाभिर्न तपोभिरुग्रैः | एवंरूपः शक्य अहं नृलोके द्रष्टुं त्वदन्येन कुरुप्रवीर ||',
+    'French': 'Ce n’est pas par rites ou austérité qu’on me voit ainsi.',
     'meaning': 'This form cannot be seen by rituals or austerity.',
   },
   {
     'num': '49',
-    'sanskrit': 'मा ते व्यथा मा च विमूढभावो दृष्ट्वा रूपं घोरमीदृङ्ममेदम् | व्यपेतभीः प्रीतमनाः पुनस्त्वं तदेव मे रूपमिदं प्रपश्य ||',
-    'ahirani': 'Ne sois pas effrayé — regarde à nouveau ma forme paisible.',
+    'sanskrit':
+        'मा ते व्यथा मा च विमूढभावो दृष्ट्वा रूपं घोरमीदृङ्ममेदम् | व्यपेतभीः प्रीतमनाः पुनस्त्वं तदेव मे रूपमिदं प्रपश्य ||',
+    'French': 'Ne sois pas effrayé — regarde à nouveau ma forme paisible.',
     'meaning': 'Do not fear; behold My gentle form again.',
   },
   {
     'num': '50',
-    'sanskrit': 'सञ्जय उवाच | इत्यर्जुनं वासुदेवस्तथोक्त्वा स्वकं रूपं दर्शयामास भूयः | आश्वासयामास च भीतमेनं भूत्वा पुनः सौम्यवपुर्महात्मा ||',
-    'ahirani': 'Krishna reprend sa forme douce et rassure Arjuna.',
+    'sanskrit':
+        'सञ्जय उवाच | इत्यर्जुनं वासुदेवस्तथोक्त्वा स्वकं रूपं दर्शयामास भूयः | आश्वासयामास च भीतमेनं भूत्वा पुनः सौम्यवपुर्महात्मा ||',
+    'French': 'Krishna reprend sa forme douce et rassure Arjuna.',
     'meaning': 'Krishna returns to His gentle form and reassures Arjuna.',
   },
   {
     'num': '51',
-    'sanskrit': 'अर्जुन उवाच | दृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन | इदानीमस्मि संवृत्तः सचेताः प्रकृतिं गतः ||',
-    'ahirani': 'Maintenant je suis calme et stable.',
+    'sanskrit':
+        'अर्जुन उवाच | दृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन | इदानीमस्मि संवृत्तः सचेताः प्रकृतिं गतः ||',
+    'French': 'Maintenant je suis calme et stable.',
     'meaning': 'Now I am calm and composed.',
   },
   {
     'num': '52',
-    'sanskrit': 'श्रीभगवानुवाच | सुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम | देवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः ||',
-    'ahirani': 'Même les dieux désirent voir cette forme.',
+    'sanskrit':
+        'श्रीभगवानुवाच | सुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम | देवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः ||',
+    'French': 'Même les dieux désirent voir cette forme.',
     'meaning': 'Even gods long to see this form.',
   },
   {
     'num': '53',
-    'sanskrit': 'नाहं वेदैर्न तपसा न दानेन न चेज्यया | शक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा ||',
-    'ahirani': 'On ne peut pas me voir ainsi par les rituels.',
+    'sanskrit':
+        'नाहं वेदैर्न तपसा न दानेन न चेज्यया | शक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा ||',
+    'French': 'On ne peut pas me voir ainsi par les rituels.',
     'meaning': 'This form cannot be seen through rituals.',
   },
   {
     'num': '54',
-    'sanskrit': 'भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन | ज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप ||',
-    'ahirani': 'Seule la dévotion pure permet de me connaître.',
+    'sanskrit':
+        'भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन | ज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप ||',
+    'French': 'Seule la dévotion pure permet de me connaître.',
     'meaning': 'Only pure devotion reveals Me.',
   },
   {
     'num': '55',
-    'sanskrit': 'मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः | निर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ||',
-    'ahirani': 'Celui qui est dévoué et sans haine atteint moi.',
+    'sanskrit':
+        'मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः | निर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ||',
+    'French': 'Celui qui est dévoué et sans haine atteint moi.',
     'meaning': 'One who is devoted and free from hatred reaches Me.',
   },
 ];
